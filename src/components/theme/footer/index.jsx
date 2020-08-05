@@ -1,7 +1,9 @@
 import React from 'react';
+
 import { Container } from 'ui';
-import social from './social.json';
 import { Wrapper, Flex, Links, Details } from './styles';
+
+import social from 'data/social.json';
 
 
 export const Footer = () => (

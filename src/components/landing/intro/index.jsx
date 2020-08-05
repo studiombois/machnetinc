@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { Header } from 'components/theme';
 import { Container, ButtonSmall } from 'ui';
-import Platform from 'assets/illustrations/platform.png';
+import Platform from 'assets/img/platform.png';
 
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
 
@@ -19,7 +19,7 @@ export const Intro = () => {
           <h1>Super API for US domestic and cross border payments</h1>
           <p>Provide turn-key payment services using our hyper integrated API.</p>
           <ButtonSmall as={AnchorLink} href="#contact">
-           Request Demo
+            Request Demo
           </ButtonSmall>
         </Details>
         <Thumbnail>

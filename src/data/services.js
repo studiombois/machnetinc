@@ -2,6 +2,7 @@ import ACH from 'assets/icons/ach.svg';
 import Bank from 'assets/icons/bank.svg';
 import Card from 'assets/icons/card.svg';
 import Risk from 'assets/icons/risk.svg';
+import Users from 'assets/icons/users.svg';
 import Identity from 'assets/icons/identity.svg';
 import Security from 'assets/icons/security.svg';
 import Compliance from 'assets/icons/compliance.svg';
@@ -77,3 +78,26 @@ export const keyPoints = {
     },
   ]
 }
+
+export const usecases = [
+  {
+    title:'User Verification',
+    description: 'Realtime user KYC to send money',
+    icon: UserVerified
+  },
+  {
+    title:'Add Payment',
+    description: 'Realtime user KYC to send money',
+    icon: Bank
+  },
+  {
+    title:'Add Beneficiary',
+    description: 'Realtime user KYC to send money',
+    icon: Users
+  },
+  {
+    title:'Create Transaction',
+    description: 'Realtime user KYC to send money',
+    icon: GlobalSettlement
+  },
+]

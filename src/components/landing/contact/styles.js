@@ -2,29 +2,17 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   padding: 4rem 0;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-
-  @media (max-width: 960px) {
-    flex-direction: column;
-  }
+  background-image: linear-gradient( #3673b9, #eff2fc);
 `;
-
-export const Details = styled.div`
-  flex: 1;
-  padding-right: 2rem;
-
-  @media (max-width: 960px) {
-    padding-right: unset;
-    width: 100%;
-    order: 1;
-  }
+  
+  export const Details = styled.div`
+  width: 60%;
+  margin: auto;
 
   h1 {
     margin-bottom: 2rem;
-    font-size: 26pt;
-    color: #212121;
+    color: #fff;
+    text-align: center;
   }
 
   p {
