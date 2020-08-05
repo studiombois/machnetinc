@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const FeaturesWrapper = styled.div`
   background-color: #3573b9;
   padding: 3.5rem 0;
   border-top-left-radius: 21px;
@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
     color: #fff;
     text-align: center;
   }
-`;
+`
 
 export const FeaturesRowOne = styled.div`
   padding: 2.4rem 1rem;
@@ -70,3 +70,56 @@ export const Icon = styled.div`
     display: block; 
   }
 `;
+
+
+export const ServiceWrapper = styled.div`
+  padding: 4em 0; 
+  display: flex;
+  flex-wrap: wrap; 
+`;
+
+export const ImageWrapper = styled.div`
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  img {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+`;
+
+export const Description = styled.div`
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+`;
+
+export const Point = styled.div`
+  display: flex;
+
+  img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: #3673b9d1;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  p{
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.125rem;
+  }
+`

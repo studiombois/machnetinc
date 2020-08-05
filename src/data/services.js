@@ -5,7 +5,10 @@ import Risk from 'assets/icons/risk.svg';
 import Identity from 'assets/icons/identity.svg';
 import Security from 'assets/icons/security.svg';
 import Compliance from 'assets/icons/compliance.svg';
+import UserVerified from 'assets/icons/user-verified.svg';
+import MoneyTransfer from 'assets/icons/money-transfer.svg';
 import GlobalSettlement from 'assets/icons/global-settlement.svg';
+
 
 export const services = [
   {
@@ -48,3 +51,29 @@ export const services = [
     icon: GlobalSettlement,
   }
 ]
+
+export const keyPoints = {
+  title:'Integrate our API in your software application for a turn-key payment solution.',
+  points:[
+    {
+      title:'regulatory compliance program',
+      description: '',
+      icon: Compliance
+    },
+    {
+      title:'realtime user identification',
+      description: '',
+      icon: UserVerified
+    },
+    {
+      title:'connect bank accounts and cards',
+      description: '',
+      icon: Card,
+    },
+    {
+      title:'send p2p and business payments',
+      description: '',
+      icon: MoneyTransfer
+    },
+  ]
+}

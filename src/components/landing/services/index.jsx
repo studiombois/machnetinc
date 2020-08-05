@@ -2,8 +2,20 @@ import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 
 import { Container } from 'ui';
-import { services } from 'data/services';
-import { Wrapper, FeaturesRowOne, FeaturesRowTwo, Feature, Icon } from './styles';
+import { services, keyPoints } from 'data/services';
+import ClientInterface from 'assets/img/client.png';
+
+import {
+  Icon,
+  Point,
+  Feature,
+  Description,
+  ImageWrapper,
+  ServiceWrapper,
+  FeaturesRowOne,
+  FeaturesRowTwo,
+  FeaturesWrapper,
+} from './styles';
 
 const RowOne = () => (
   <FeaturesRowOne as={Container} id="services">
@@ -41,10 +53,27 @@ export const Service = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <Wrapper>
-      <RowOne/>
-      <RowTwo/>
-      <h1>Provide turn-key payment services using our hyper integrated API.</h1>
-    </Wrapper>
+    <>
+      <FeaturesWrapper>
+        <RowOne />
+        <RowTwo />
+      </FeaturesWrapper>
+      <ServiceWrapper as={Container}>
+        <ImageWrapper>
+          <img src={ClientInterface} alt="Send Money" />
+        </ImageWrapper>
+        <Description>
+          <h1>{keyPoints.title}</h1>
+          {
+            keyPoints.points.map((point, key) => (
+              <Point key={key}>
+                <img src={point.icon} alt={point.title} />
+                <p>{point.title}</p>
+              </Point>
+            ))
+          }
+        </Description>
+      </ServiceWrapper>
+    </>
   );
 };
