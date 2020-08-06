@@ -3,7 +3,7 @@ import React from 'react';
 import { Layout, SEO } from 'ui';
 import { Intro, Service, Contact, Usecase } from 'components/landing';
 
-export default () => (
+const App = () => (
   <Layout>
     <SEO />
     <Intro />
@@ -12,3 +12,5 @@ export default () => (
     <Contact />
   </Layout>
 );
+
+export default App;

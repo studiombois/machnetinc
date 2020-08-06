@@ -8,6 +8,7 @@ import ClientInterface from 'assets/img/client.png';
 import {
   Icon,
   Point,
+  Details,
   Feature,
   Description,
   ImageWrapper,
@@ -63,15 +64,17 @@ export const Service = () => {
           <img src={ClientInterface} alt="Send Money" />
         </ImageWrapper>
         <Description>
-          <h1>{keyPoints.title}</h1>
-          {
-            keyPoints.points.map((point, key) => (
-              <Point key={key}>
-                <img src={point.icon} alt={point.title} />
-                <p>{point.title}</p>
-              </Point>
-            ))
-          }
+          <Details>
+            <h1>{keyPoints.title}</h1>
+            {
+              keyPoints.points.map((point, key) => (
+                <Point key={key}>
+                  <img src={point.icon} alt={point.title} />
+                  <p>{point.title}</p>
+                </Point>
+              ))
+            }
+          </Details>
         </Description>
       </ServiceWrapper>
     </>

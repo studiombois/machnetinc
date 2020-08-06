@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-import { Header } from 'components/theme';
 import { Container, ButtonSmall } from 'ui';
 import Platform from 'assets/img/platform.png';
 
@@ -13,7 +12,6 @@ export const Intro = () => {
 
   return (
     <Wrapper>
-      <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <h1>Super API for US domestic and cross border payments</h1>

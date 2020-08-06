@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FeaturesWrapper = styled.div`
   background-color: #3573b9;
-  padding: 3.5rem 0;
+  padding: 3rem 0;
   border-top-left-radius: 21px;
   margin-top: 115px;
 
@@ -30,7 +30,7 @@ export const FeaturesRowTwo = styled.div`
   
 export const Feature = styled.div`
   padding:15px;
-  width:220px;
+  width:270px;
   border-bottom-left-radius: 21px;
   border-top-right-radius: 21px;
   border-bottom-right-radius: 21px;
@@ -53,8 +53,8 @@ export const Feature = styled.div`
 `;
 
 export const Icon = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   padding: 12px;
   margin: auto;
   overflow: hidden;
@@ -62,7 +62,7 @@ export const Icon = styled.div`
   background: #bed2e9;
   margin-bottom: 20px;
 
-  margin-top:-50px;
+  margin-top: -45px;
 
   img {
     width: 100%;
@@ -73,7 +73,7 @@ export const Icon = styled.div`
 
 
 export const ServiceWrapper = styled.div`
-  padding: 4em 0; 
+  padding: 4.5rem 0; 
   display: flex;
   flex-wrap: wrap; 
 `;
@@ -97,10 +97,19 @@ export const Description = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+`;
+
+export const Details = styled.div`
+  padding: 3rem 4rem;
+  background: #f4e1aa;
+  border-bottom-left-radius: 21px;
+  border-top-left-radius: 21px;
+  border-bottom-right-radius: 21px;
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 100;
+    color: #604324;
   }
 `;
 
@@ -108,18 +117,20 @@ export const Point = styled.div`
   display: flex;
 
   img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
-    background: #3673b9d1;
-    padding: 10px;
+    background: #f79831;
+    padding: 6px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-bottom:0;
   }
 
   p{
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
+    color: #604324;
     font-size: 1.125rem;
   }
 `

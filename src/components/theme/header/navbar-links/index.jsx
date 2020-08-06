@@ -1,4 +1,5 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
+import { Link } from "@reach/router"
 import { ThemeContext } from 'providers/ThemeProvider';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
@@ -15,10 +16,12 @@ const NavbarLinks = ({ desktop }) => {
       <AnchorLink href="#about">About</AnchorLink>
       <AnchorLink href="#services">Solution</AnchorLink>
       <AnchorLink href="#pricing">Pricing</AnchorLink>
-      <AnchorLink href="#contact">Contact</AnchorLink>
-      <ButtonSmall as={AnchorLink} href="#contact">
-      Request Demo
+      <Link to="/contact">Contact</Link>
+      <Link to="/contact">
+        <ButtonSmall>
+          Request Demo
       </ButtonSmall>
+      </Link>
       {/* <ToggleTheme /> */}
     </Wrapper>
   )

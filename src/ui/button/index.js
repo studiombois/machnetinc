@@ -31,6 +31,7 @@ export const Button = styled.button`
 `;
 
 export const ButtonSmall = styled.button`
+  border: none;
   padding: 6px 16px;
 	width: fit-content;
 	background: #3573b9;

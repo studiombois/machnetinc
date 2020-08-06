@@ -25,7 +25,6 @@ export const Description = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 120px;
 
   @media (max-width: 767) {
     padding-left: 0;
@@ -37,15 +36,30 @@ export const Description = styled.div`
   }
 `;
 
+export const Details = styled.div`
+  padding: 3rem 4rem;
+  background: #c3d8f4;
+  border-bottom-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-right-radius: 21px;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2560a4;
+  }
+`;
+
 export const Point = styled.div`
   display: flex;
+  cursor: pointer;
 
   img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     display: inline-block;
     background: #3673b9d1;
-    padding: 10px;
+    padding: 8px;
     border-radius: 50%;
     margin-right: 20px;
   }
@@ -54,6 +68,11 @@ export const Point = styled.div`
     padding: 0
     display: inline-block;
     font-size: 1.125rem;
+    color: #2560a4;
+     
+    &:hover {
+      color: #0e3b6f;
+    }
 
     small {
       display: block;

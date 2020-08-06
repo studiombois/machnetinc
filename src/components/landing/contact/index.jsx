@@ -1,15 +1,17 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { Container } from 'ui';
-import ContactForm from './contact-form';
 
-import { Wrapper, Details, Thumbnail } from './styles';
+import { Wrapper, Details, RequestDemo } from './styles';
 
 export const Contact = () => (
-  <Wrapper id="contact">
+  <Wrapper>
     <Details as={Container}>
-      <h1>Demo & Pricing</h1>
-      <ContactForm />
+      <h1>Integrate our API in your software application for a turn-key payment solution.</h1>
+      <RequestDemo as={AnchorLink} href="/contact">
+        Request Demo
+      </RequestDemo>
     </Details>
   </Wrapper>
 );

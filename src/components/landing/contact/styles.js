@@ -1,17 +1,30 @@
 import styled from 'styled-components';
 
+import Team from 'assets/img/team.png';
+
 export const Wrapper = styled.div`
-  padding: 4rem 0;
-  background-image: linear-gradient( #3673b9, #eff2fc);
+  padding: 0;
+  z-idex: 999;
+  width: 100%;
+  position: absolute;
 `;
   
-  export const Details = styled.div`
-  width: 60%;
+export const Details = styled.div`
   margin: auto;
+  padding: 3rem 15px;
+  background: #3673b9;
+  border-bottom-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-right-radius: 21px;
+  background-image: url(${Team});
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 
   h1 {
-    margin-bottom: 2rem;
     color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
 
@@ -35,4 +48,20 @@ export const Thumbnail = styled.div`
   img {
     width: 100%;
   }
+`;
+
+export const RequestDemo = styled.button`
+  padding: 6px 18px;
+	width: fit-content;
+	background: #fff;
+	border-radius: 16px;
+	cursor: pointer;
+  color: #3573b9 !important;
+  margin: auto;
+  display: block;
+	
+
+	&:hover {
+		background:#eff2fc;
+	}
 `;

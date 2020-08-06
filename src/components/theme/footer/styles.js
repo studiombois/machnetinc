@@ -1,34 +1,22 @@
 import styled from 'styled-components';
 
-import footerIllustration from 'assets/illustrations/footer.svg';
-
 export const Wrapper = styled.div`
-  padding: 28rem 0 4rem 0;
-  background-image: url(${footerIllustration});
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
+  margin-top: 100px;
+  background: #fdfdfd;
+  padding: 12rem 0 4rem 0;
+  border-top-left-radius: 21px;
 
   @media (max-width: 1960px) {
-    padding: 14rem 0 4rem;
-  }
-`;
-
-export const Flex = styled.div`
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-
-  @media (max-width: 680px) {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+    padding: 12rem 0 4rem;
   }
 `;
 
 export const Links = styled.div`
-  display: flex;
-  align-items: center;
+  text-align: center;
+
+  @media (max-width: 680px) {
+    text-align: center;
+  }
 
   a {
     margin: 0 0.5rem;
@@ -44,15 +32,8 @@ export const Links = styled.div`
   }
 `;
 
-export const Details = styled.div`
-  h2,
-  a,
-  span {
-    margin:10px;
-    color: #fff;
-  }
-
-  @media (max-width: 680px) {
-    margin-bottom: 2rem;
-  }
+export const Copyright = styled.div`
+  margin-top: 20px;
+  text-align: center;
+  font-size: small;
 `;
