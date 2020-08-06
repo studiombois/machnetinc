@@ -24,13 +24,13 @@ export const FeaturesRowOne = styled.div`
 export const FeaturesRowTwo = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding: 2.4rem 1rem;
+  padding: 1.5rem 1rem;
   justify-content: space-around;
 `;
   
 export const Feature = styled.div`
   padding:15px;
-  width:270px;
+  width:240px;
   border-bottom-left-radius: 21px;
   border-top-right-radius: 21px;
   border-bottom-right-radius: 21px;
