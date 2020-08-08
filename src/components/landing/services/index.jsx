@@ -21,7 +21,7 @@ import {
 const RowOne = () => (
   <FeaturesRowOne as={Container} id="services">
     {
-      services.slice(0, 4).map((service, i) => (
+      services.map((service, i) => (
         <Feature key={i}>
           <Icon>
             <img src={service.icon} alt={service.title} />
@@ -57,7 +57,7 @@ export const Service = () => {
     <>
       <FeaturesWrapper>
         <RowOne />
-        <RowTwo />
+        {/* <RowTwo /> */}
       </FeaturesWrapper>
       <ServiceWrapper as={Container}>
         <ImageWrapper>
