@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <Wrapper as={Container}>
       <Brand as={Link} to="/" theme={theme}>
-        <img src={theme === 'light' ? LogoBlue : LogoWhite} alt={theme} />
+        <img src={theme === 'light' ? LogoWhite : LogoWhite} alt={theme} />
       </Brand>
       <NavbarLinks desktop />
     </Wrapper>

@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   a {
-		color: #323232;
+		color: #fff;
 		font-size: .875rem;
     text-decoration: none;
 
 		@media (max-width: 960px) {
-			color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+			color: ${({ theme }) => (theme === 'light' ? '#fff' : '#fff')};
 		}
   }
 
@@ -42,4 +42,21 @@ export const Wrapper = styled.div`
 					}
 			}
 	`}
+`;
+
+export const RequestDemo = styled.button`
+  padding: 6px 18px;
+	width: fit-content;
+	background: #fff;
+	border-radius: 16px;
+	cursor: pointer;
+  color: #3573b9 !important;
+  margin: auto;
+	display: block;
+	border: none;
+	
+
+	&:hover {
+		background:#eff2fc;
+	}
 `;

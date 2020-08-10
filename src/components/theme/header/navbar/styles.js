@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Brand = styled.a`
-  color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+  color: ${({ theme }) => (theme === 'light' ? '#fff' : '#fff')};
   margin-top:15px;
 
   @media (max-width: 680px) {

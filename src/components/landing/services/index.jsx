@@ -55,10 +55,6 @@ export const Service = () => {
 
   return (
     <>
-      <FeaturesWrapper>
-        <RowOne />
-        {/* <RowTwo /> */}
-      </FeaturesWrapper>
       <ServiceWrapper as={Container}>
         <ImageWrapper>
           <img src={ClientInterface} alt="Send Money" />
@@ -77,6 +73,10 @@ export const Service = () => {
           </Details>
         </Description>
       </ServiceWrapper>
+      {/* <FeaturesWrapper>
+        <RowOne />
+        <RowTwo />
+      </FeaturesWrapper> */}
     </>
   );
 };

@@ -1,10 +1,16 @@
 import styled from 'styled-components';
+import footerIllustration from 'assets/illustrations/footer.svg';
 
 export const Wrapper = styled.div`
   margin-top: 100px;
   background: #fdfdfd;
   padding: 12rem 0 4rem 0;
   border-top-left-radius: 21px;
+
+  background-image: url(${footerIllustration});
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 
   @media (max-width: 1960px) {
     padding: 12rem 0 4rem;

@@ -614,6 +614,7 @@ export const Global = createGlobalStyle`
       -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       box-sizing: border-box;
+      overflow-x: hidden;
     }
 
     a {

@@ -6,7 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ButtonSmall } from 'ui';
 import ToggleTheme from 'components/theme/header/toggle-theme';
 
-import { Wrapper } from './styles';
+import { Wrapper, RequestDemo } from './styles';
 
 const NavbarLinks = ({ desktop }) => {
   const { theme } = useContext(ThemeContext);
@@ -18,9 +18,9 @@ const NavbarLinks = ({ desktop }) => {
       <AnchorLink href="#pricing">Pricing</AnchorLink>
       <Link to="/contact">Contact</Link>
       <Link to="/contact">
-        <ButtonSmall>
+        <RequestDemo>
           Request Demo
-      </ButtonSmall>
+        </RequestDemo>
       </Link>
       {/* <ToggleTheme /> */}
     </Wrapper>
