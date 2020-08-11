@@ -57,23 +57,23 @@ export const keyPoints = {
   title:'What we provide?',
   points:[
     {
-      title:'regulatory compliance program',
-      description: '',
+      title:'Compliance',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam velit sapiente maxime. Quasi, consectetur accusantium.',
       icon: Compliance
     },
     {
-      title:'realtime user identification',
-      description: '',
+      title:'User identification',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam velit sapiente maxime. Quasi, consectetur accusantium.',
       icon: UserVerified
     },
     {
-      title:'connect bank accounts and cards',
-      description: '',
+      title:'Bank & Cards',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam velit sapiente maxime. Quasi, consectetur accusantium.',
       icon: Card,
     },
     {
-      title:'send p2p and business payments',
-      description: '',
+      title:'Payments',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam velit sapiente maxime. Quasi, consectetur accusantium.',
       icon: MoneyTransfer
     },
   ]

@@ -3,13 +3,13 @@ import { ThemeContext } from 'providers/ThemeProvider';
 
 import { Container } from 'ui';
 import { services, keyPoints } from 'data/services';
-import ClientInterface from 'assets/img/client.png';
 
 import {
   Icon,
   Point,
   Details,
   Feature,
+  Wrapper,
   Description,
   ImageWrapper,
   ServiceWrapper,
@@ -17,6 +17,8 @@ import {
   FeaturesRowTwo,
   FeaturesWrapper,
 } from './styles';
+
+import ClientInterface from 'assets/img/client.png';
 
 const RowOne = () => (
   <FeaturesRowOne as={Container} id="services">
@@ -54,19 +56,21 @@ export const Service = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <>
-      <ServiceWrapper as={Container}>
+    <Wrapper as={Container}>
+      <h1>{keyPoints.title}</h1>
+      <p>Provide turn-key payment services using our hyper integrated API.</p>
+      <ServiceWrapper >
         <ImageWrapper>
           <img src={ClientInterface} alt="Send Money" />
         </ImageWrapper>
         <Description>
           <Details>
-            <h1>{keyPoints.title}</h1>
             {
               keyPoints.points.map((point, key) => (
                 <Point key={key}>
                   <img src={point.icon} alt={point.title} />
-                  <p>{point.title}</p>
+                  <h1>{point.title}</h1>
+                  <p>{point.description}</p>
                 </Point>
               ))
             }
@@ -77,6 +81,6 @@ export const Service = () => {
         <RowOne />
         <RowTwo />
       </FeaturesWrapper> */}
-    </>
+    </Wrapper>
   );
 };

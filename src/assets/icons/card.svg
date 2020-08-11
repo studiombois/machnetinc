@@ -1,1 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="100px" height="100px"><path fill="#f78f8f" d="M14,49.5c-0.827,0-1.5-0.673-1.5-1.5V8c0-1.93,1.57-3.5,3.5-3.5h58c1.93,0,3.5,1.57,3.5,3.5v38 c0,1.93-1.57,3.5-3.5,3.5H14z"/><path fill="#c74343" d="M74,5c1.654,0,3,1.346,3,3v38c0,1.654-1.346,3-3,3H14c-0.551,0-1-0.449-1-1V8c0-1.654,1.346-3,3-3 H74 M74,4H16c-2.209,0-4,1.791-4,4v40c0,1.105,0.895,2,2,2h60c2.209,0,4-1.791,4-4V8C78,5.791,76.209,4,74,4L74,4z"/><path fill="#fff" d="M18 24H72V28H18z"/><path fill="#36404d" d="M12 12H78V20H12z"/><path fill="#8bb7f0" d="M6,75.5c-1.93,0-3.5-1.57-3.5-3.5V34c0-1.93,1.57-3.5,3.5-3.5h58c1.93,0,3.5,1.57,3.5,3.5v38 c0,1.93-1.57,3.5-3.5,3.5H6z"/><path fill="#4e7ab5" d="M64,31c1.654,0,3,1.346,3,3v38c0,1.654-1.346,3-3,3H6c-1.654,0-3-1.346-3-3V34c0-1.654,1.346-3,3-3 H64 M64,30H6c-2.209,0-4,1.791-4,4v38c0,2.209,1.791,4,4,4h58c2.209,0,4-1.791,4-4V34C68,31.791,66.209,30,64,30L64,30z"/><path fill="#ffeea3" d="M10.5 40.5H23.5V49.5H10.5z"/><path fill="#ba9b48" d="M23,41v8H11v-8H23 M24,40H10v10h14V40L24,40z"/><path fill="#ffeea3" d="M10 56H18V60H10zM24 56H32V60H24zM38 56H46V60H38zM52 56H60V60H52z"/><g><path fill="#e1ebf2" d="M32 38H60V46H32z"/></g><path fill="#ffeea3" d="M10 64H40V68H10z"/></svg>
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="height: 100%; width: 100%; background: transparent;" width="199px" height="199px">
+  <g class="ldl-scale" style="transform-origin: 50% 50%; transform: rotate(0deg) scale(1, 1);">
+    <g class="ldl-ani">
+      <g class="ldl-layer">
+        <g class="ldl-ani">
+          <g>
+            <g class="ldl-layer">
+              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -0.634921s infinite normal forwards running breath-0567d269-4ad5-47b9-b261-eaf23617d016;">
+                <path fill="#e0e0e0" d="M86.767 70.312H18.823a3.233 3.233 0 0 1-3.233-3.233V23.251a3.233 3.233 0 0 1 3.233-3.233h67.944A3.233 3.233 0 0 1 90 23.251v43.828a3.233 3.233 0 0 1-3.233 3.233z" style="fill: rgb(224, 224, 224);"></path>
+              </g>
+            </g>
+            <g class="ldl-layer">
+              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -0.714286s infinite normal forwards running breath-0567d269-4ad5-47b9-b261-eaf23617d016;">
+                <path d="M15.59 24.647H90v12.536H15.59z" fill="#323232" style="fill: rgb(50, 50, 50);"></path>
+              </g>
+            </g>
+            <g class="ldl-layer">
+              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -0.793651s infinite normal forwards running breath-0567d269-4ad5-47b9-b261-eaf23617d016;">
+                <path d="M20.789 41.792h47.95v6.041h-47.95z" fill="#fff" style="fill: rgb(255, 255, 255);"></path>
+              </g>
+            </g>
+            <g class="ldl-layer">
+              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -0.873016s infinite normal forwards running breath-0567d269-4ad5-47b9-b261-eaf23617d016;">
+                <path d="M84.867 47.834H74.446v-6.04h10.42z" fill="#fff" style="fill: rgb(255, 255, 255);"></path>
+              </g>
+            </g>
+            <g class="ldl-layer">
+              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -0.952381s infinite normal forwards running breath-0567d269-4ad5-47b9-b261-eaf23617d016;">
+                <path d="M52.612 62.859h32.256v3.021H52.612z" fill="#fff" style="fill: rgb(255, 255, 255);"></path>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g class="ldl-layer">
+        <g class="ldl-ani">
+          <g>
+            <g class="ldl-layer">
+              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -1.03175s infinite normal forwards running breath-0567d269-4ad5-47b9-b261-eaf23617d016;">
+                <circle fill="#acbd81" r="13.909" cy="66.074" cx="23.909" style="fill: rgb(119, 165, 1);"></circle>
+              </g>
+            </g>
+            <g class="ldl-layer">
+              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -1.11111s infinite normal forwards running breath-0567d269-4ad5-47b9-b261-eaf23617d016;">
+                <path d="M16.25 66.379l5.181 5.181 10.482-10.482" stroke-miterlimit="10" stroke-width="3" stroke="#fff" fill="none" style="stroke: rgb(255, 255, 255);"></path>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
