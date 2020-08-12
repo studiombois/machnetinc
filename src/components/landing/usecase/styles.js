@@ -4,8 +4,13 @@ export const Wrapper = styled.div`
   padding: 4.5rem 0;
   display: flex;
   flex-wrap: wrap; 
+  background: #373a59;
 `;
 
+export const ApiPlatform = styled.div`
+  display: flex;
+  flex-wrap: wrap; 
+`;
 export const Thumbnail = styled.div`
   flex:1;
   display: flex;
@@ -38,15 +43,11 @@ export const Description = styled.div`
 
 export const Details = styled.div`
   padding: 3rem 4rem;
-  background: #c3d8f4;
-  border-bottom-left-radius: 21px;
-  border-top-right-radius: 21px;
-  border-bottom-right-radius: 21px;
 
   h1 {
     font-size: 2rem;
     font-weight: 100;
-    color: #2560a4;
+    color: #fff;
   }
 `;
 
@@ -68,10 +69,10 @@ export const Point = styled.div`
     padding: 0
     display: inline-block;
     font-size: 1.125rem;
-    color: #2560a4;
+    color: #fff;
      
     &:hover {
-      color: #0e3b6f;
+      color: #c9ddf3;
     }
 
     small {

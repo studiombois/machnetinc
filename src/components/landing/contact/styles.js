@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 export const Details = styled.div`
   margin: auto;
   padding: 3rem 15px;
-  background: #3673b9;
+  background: #3196d4;
   border-bottom-left-radius: 21px;
   border-top-right-radius: 21px;
   border-bottom-right-radius: 21px;

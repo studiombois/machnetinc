@@ -1,38 +1,32 @@
-<svg xml:space="preserve" viewBox="0 0 100 100" y="0" x="0" xmlns="http://www.w3.org/2000/svg" id="圖層_1" version="1.1" style="height: 100%; width: 100%; background: transparent" width="199px" height="199px">
-  <g class="ldl-scale" style="transform-origin: 50% 50%; transform: rotate(0deg) scale(1, 1);">
-    <g class="ldl-ani">
-      <g class="ldl-layer">
-        <g class="ldl-ani">
-          <g>
-            <g class="ldl-layer">
-              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -0.694444s infinite normal forwards running breath-147486a6-231a-4f64-91c9-01113185763b;">
-                <path fill="#a0c8d7" d="M60.688 89.375H39.313c-8.595 0-15.563-6.968-15.563-15.563V70c0-13.876 11.249-25.125 25.125-25.125h2.25C65.001 44.875 76.25 56.124 76.25 70v3.813c0 8.594-6.968 15.562-15.562 15.562z" style="fill: rgb(160, 200, 215);"></path>
-              </g>
-            </g>
-            <g class="ldl-layer">
-              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -0.833333s infinite normal forwards running breath-147486a6-231a-4f64-91c9-01113185763b;">
-                <circle fill="#f5e6c8" r="21.25" cy="31.875" cx="50" style="fill: rgb(245, 230, 200);"></circle>
-              </g>
-            </g>
-          </g>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 180 180" style=" fill:#fff;">
+  <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+    <path d="M0,172v-172h172v172z" fill="none" stroke="none"></path>
+    <g id="original-icon" fill="#fff" stroke="none" opacity="0" visibility="hidden">
+      <path d="M75.3575,1.3975c-12.72531,0.34938 -22.01062,4.05813 -27.52,11.2875c-6.53062,8.6 -7.88781,22.01063 -3.7625,39.56c-1.72,2.06938 -2.82187,4.81063 -2.4725,8.6c1.03469,7.56531 3.82969,10.66938 6.235,12.04c1.03469,5.84531 3.78938,12.81938 6.88,15.91v12.3625c-2.06937,4.81063 -8.96281,7.55188 -16.8775,10.6425c-13.07469,5.16 -29.58937,11.7175 -30.96,32.3575l-0.3225,3.7625h111.8l-7.6325,-6.88h-96.6425c2.75469,-13.76 14.86188,-18.53031 26.5525,-23.005c9.28531,-3.78937 18.20781,-7.24281 20.9625,-15.1575l0.3225,-0.7525v-17.2l-1.72,-0.9675c-1.37062,-1.03469 -4.79719,-7.55187 -5.4825,-14.0825l-0.3225,-2.795l-2.795,-0.3225c-0.34937,0 -2.10969,-1.3975 -2.795,-6.5575c-0.34937,-2.75469 1.075,-3.7625 1.075,-3.7625l2.0425,-1.3975l-0.645,-2.365c-4.12531,-16.16531 -3.46687,-28.56812 2.0425,-35.7975c4.12531,-5.50937 11.7175,-8.57312 22.0375,-8.9225c6.53063,0 11.31438,1.65281 12.685,4.4075l0.7525,1.3975l1.72,0.3225c4.47469,0.68531 7.82063,2.82188 9.89,5.9125c5.16,8.6 2.08281,24.01281 -0.3225,31.9275l-0.645,3.1175l2.0425,1.3975c0,0 1.42438,1.00781 1.075,3.7625c-0.68531,5.50938 -2.44562,6.5575 -2.795,6.5575l-2.795,0.3225l-0.3225,2.795c-0.68531,6.53063 -4.11187,13.39719 -5.4825,14.0825l-1.72,0.9675v17.2l0.3225,0.7525c3.09063,7.91469 11.67719,11.36813 20.9625,15.1575c9.63469,3.78938 19.69938,7.82063 24.51,16.77l1.72,1.72l4.085,-5.16c-5.84531,-11.00531 -17.54937,-15.77562 -27.52,-19.565c-7.91469,-3.09062 -14.80812,-5.83187 -16.8775,-10.6425v-12.3625c3.09063,-3.09062 5.84531,-10.06469 6.88,-15.91c2.40531,-1.37062 5.54969,-4.47469 6.235,-12.04c0.34938,-3.78937 -0.67187,-6.53062 -2.0425,-8.6c2.06938,-6.88 6.15438,-24.33531 -1.075,-35.69c-3.09062,-4.81062 -7.59219,-7.99531 -13.4375,-9.03c-3.09062,-4.12531 -9.59437,-6.1275 -17.845,-6.1275zM166.625,109.7575l-2.15,2.6875l-26.66,33.97l-18.5975,-16.2325l-2.58,-2.2575l-4.515,5.16l2.58,2.2575l21.285,18.5975l2.795,2.365l2.2575,-2.795l28.81,-36.8725l2.15,-2.6875z"></path>
+    </g>
+    <g id="subtracted-icon" fill="#fff" stroke="none">
+      <path d="M93.2025,7.525c5.84531,1.03469 10.34688,4.21938 13.4375,9.03c7.22938,11.35469 3.14438,28.81 1.075,35.69c1.37063,2.06938 2.39188,4.81063 2.0425,8.6c-0.68531,7.56531 -3.82969,10.66938 -6.235,12.04c-1.03469,5.84531 -3.78937,12.81938 -6.88,15.91v12.3625c0.56235,1.30728 1.48094,2.46174 2.67946,3.51192c-1.27499,1.89588 -2.39721,3.90199 -3.34867,6.00033c-2.76921,-2.07108 -4.94844,-4.55953 -6.21079,-7.79225l-0.3225,-0.7525v-17.2l1.72,-0.9675c1.37063,-0.68531 4.79719,-7.55187 5.4825,-14.0825l0.3225,-2.795l2.795,-0.3225c0.34938,0 2.10969,-1.04812 2.795,-6.5575c0.34938,-2.75469 -1.075,-3.7625 -1.075,-3.7625l-2.0425,-1.3975l0.645,-3.1175c2.40531,-7.91469 5.4825,-23.3275 0.3225,-31.9275c-2.06937,-3.09062 -5.41531,-5.22719 -9.89,-5.9125l-1.72,-0.3225l-0.7525,-1.3975c-1.37062,-2.75469 -6.15437,-4.4075 -12.685,-4.4075c-10.32,0.34938 -17.91219,3.41313 -22.0375,8.9225c-5.50937,7.22938 -6.16781,19.63219 -2.0425,35.7975l0.645,2.365l-2.0425,1.3975c0,0 -1.42437,1.00781 -1.075,3.7625c0.68531,5.16 2.44563,6.5575 2.795,6.5575l2.795,0.3225l0.3225,2.795c0.68531,6.53063 4.11188,13.04781 5.4825,14.0825l1.72,0.9675v17.2l-0.3225,0.7525c-2.75469,7.91469 -11.67719,11.36813 -20.9625,15.1575c-11.69062,4.47469 -23.79781,9.245 -26.5525,23.005l80.4971,0c0.83287,2.39996 1.88195,4.70116 3.12364,6.88h-91.14575l0.3225,-3.7625c1.37063,-20.64 17.88531,-27.1975 30.96,-32.3575c7.91469,-3.09062 14.80813,-5.83187 16.8775,-10.6425v-12.3625c-3.09062,-3.09062 -5.84531,-10.06469 -6.88,-15.91c-2.40531,-1.37062 -5.20031,-4.47469 -6.235,-12.04c-0.34937,-3.78937 0.7525,-6.53062 2.4725,-8.6c-4.12531,-17.54937 -2.76812,-30.96 3.7625,-39.56c5.50938,-7.22937 14.79469,-10.93812 27.52,-11.2875c8.25063,0 14.75438,2.00219 17.845,6.1275z"></path>
+    </g>
+    <g stroke="none">
+      <g fill="#fff">
+        <g id="Слой_2" font-family="-apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Fira Sans&quot;, Roboto, Oxygen, Ubuntu, &quot;Droid Sans&quot;, Arial, sans-serif" font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+        <g id="Android_x5F_4" font-family="-apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Fira Sans&quot;, Roboto, Oxygen, Ubuntu, &quot;Droid Sans&quot;, Arial, sans-serif" font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+        <g id="Android_x5F_5" font-family="-apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Fira Sans&quot;, Roboto, Oxygen, Ubuntu, &quot;Droid Sans&quot;, Arial, sans-serif" font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+        <g id="Windows_x5F_8" font-family="-apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Fira Sans&quot;, Roboto, Oxygen, Ubuntu, &quot;Droid Sans&quot;, Arial, sans-serif" font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+        <g id="Windows_x5F_10" font-family="-apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Fira Sans&quot;, Roboto, Oxygen, Ubuntu, &quot;Droid Sans&quot;, Arial, sans-serif" font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+        <g id="Color" font-family="-apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Fira Sans&quot;, Roboto, Oxygen, Ubuntu, &quot;Droid Sans&quot;, Arial, sans-serif" font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+        <g id="IOS" font-family="-apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Fira Sans&quot;, Roboto, Oxygen, Ubuntu, &quot;Droid Sans&quot;, Arial, sans-serif" font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+        <g id="IOS_copy">
+          <path d="M133.6,162c-18.92,0 -34.4,-15.48 -34.4,-34.4c0,-18.92 15.48,-34.4 34.4,-34.4c18.92,0 34.4,15.48 34.4,34.4c0,18.92 -15.48,34.4 -34.4,34.4zM133.6,100.08c-15.136,0 -27.52,12.384 -27.52,27.52c0,15.136 12.384,27.52 27.52,27.52c15.136,0 27.52,-12.384 27.52,-27.52c0,-15.136 -12.384,-27.52 -27.52,-27.52zM153.552,116.248l-5.16,-4.472l-18.576,21.672l-11.352,-8.6l-4.128,5.504l16.168,12.384z"></path>
         </g>
       </g>
-      <g class="ldl-layer">
-        <g class="ldl-ani">
-          <g>
-            <g class="ldl-layer">
-              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -0.972222s infinite normal forwards running breath-147486a6-231a-4f64-91c9-01113185763b;">
-                <circle stroke-miterlimit="10" stroke-width="4" stroke="#333" fill="#fff" r="14.738" cy="69.814" cx="69.793" style="fill: rgb(255, 255, 255); stroke: rgb(51, 51, 51);"></circle>
-              </g>
-            </g>
-            <g class="ldl-layer">
-              <g class="ldl-ani" style="transform: scale(0.91); transform-origin: 50px 50px; animation: 1.11111s linear -1.11111s infinite normal forwards running breath-147486a6-231a-4f64-91c9-01113185763b;">
-                <path fill="#f8b26a" d="M70.167 62.013l2.149 4.354a.418.418 0 0 0 .314.228l4.805.698c.342.05.479.47.231.712l-3.477 3.389a.419.419 0 0 0-.12.369l.821 4.786a.417.417 0 0 1-.605.44l-4.298-2.26a.416.416 0 0 0-.388 0l-4.298 2.26a.417.417 0 0 1-.605-.44l.821-4.786a.419.419 0 0 0-.12-.369l-3.477-3.389a.417.417 0 0 1 .231-.712l4.805-.698a.418.418 0 0 0 .314-.228l2.149-4.354a.417.417 0 0 1 .748 0z" style="fill: rgb(248, 178, 106);"></path>
-              </g>
-            </g>
-          </g>
+      <g fill="#fff" opacity="0">
+        <g id="IOS" font-family="-apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Fira Sans&quot;, Roboto, Oxygen, Ubuntu, &quot;Droid Sans&quot;, Arial, sans-serif" font-weight="400" font-size="16" text-anchor="start" visibility="hidden"></g>
+        <g id="IOS_copy">
+          <path d="M133.6,168.88c22.704,0 41.28,-18.576 41.28,-41.28c0,-22.704 -18.576,-41.28 -41.28,-41.28c-22.704,0 -41.28,18.576 -41.28,41.28c0,22.704 18.576,41.28 41.28,41.28z"></path>
         </g>
       </g>
     </g>
+    <path d="M99.2,162v-68.8h68.8v68.8z" id="overlay-drag" fill="#fff" stroke="none" opacity="0"></path>
   </g>
 </svg>

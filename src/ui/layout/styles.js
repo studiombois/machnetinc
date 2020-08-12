@@ -603,7 +603,7 @@ export const Global = createGlobalStyle`
       padding: 0;
       font-family: 'Poppins', sans-serif;
       color: ${({ theme }) => (theme === 'light' ? 'hsla(0, 0%, 0%, 0.8)' : '#fff')};
-      background-color: ${({ theme }) => (theme === 'light' ? '#eff2fc' : '#212121')};
+      background-color: ${({ theme }) => (theme === 'light' ? '#fff' : '#212121')};
       transition: .3s all;
       font-weight: normal;
       word-wrap: break-word;

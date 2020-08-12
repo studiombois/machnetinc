@@ -1,9 +1,8 @@
-import React, { useContext } from 'react';
 import { Link } from "@reach/router"
+import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-import { ButtonSmall } from 'ui';
 import ToggleTheme from 'components/theme/header/toggle-theme';
 
 import { Wrapper, RequestDemo } from './styles';
