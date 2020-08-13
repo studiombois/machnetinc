@@ -13,9 +13,7 @@ export const Layout = ({ children }) => {
 
   useEffect(() => {
     const AOS = require("aos");
-    AOS.init({
-      once: true,
-    });
+    AOS.init();
   }, []);
 
   useEffect(() => {
