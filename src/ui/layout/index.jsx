@@ -1,5 +1,4 @@
-import AOS from "aos";
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 
 import { Footer } from 'components/theme';
@@ -9,8 +8,21 @@ import "aos/dist/aos.css";
 import { Global } from './styles';
 
 export const Layout = ({ children }) => {
-  AOS.init();
+  let AOS;
   const { theme } = useContext(ThemeContext);
+
+  useEffect(() => {
+    const AOS = require("aos");
+    AOS.init({
+      once: true,
+    });
+  }, []);
+
+  useEffect(() => {
+    if (AOS) {
+      AOS.refresh();
+    }
+  })
 
   return (
     <>
