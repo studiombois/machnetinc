@@ -45,18 +45,18 @@ export const Wrapper = styled.div`
 `;
 
 export const RequestDemo = styled.button`
-  padding: 6px 18px;
+  padding: 5px 18px;
 	width: fit-content;
-	background: #fff;
+	background: transparent;
 	border-radius: 16px;
 	cursor: pointer;
-  color: #3573b9 !important;
+  color: #fff !important;
   margin: auto;
 	display: block;
-	border: none;
-	
+	border: 1px solid #fff;
 
 	&:hover {
-		background:#eff2fc;
+		color: #3573b9 !important;
+		background: #fff;
 	}
 `;

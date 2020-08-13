@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Layout, SEO } from 'ui';
-import { Home } from 'components/landing/intro/home';
+import {Clients} from 'components/landing/clients/clients';
 import { Intro, Service, Contact, Usecase } from 'components/landing';
 
 const App = () => (
@@ -10,6 +10,7 @@ const App = () => (
     <Intro />
     <Service/>
     <Usecase />
+    <Clients />
     <Contact />
   </Layout>
 );

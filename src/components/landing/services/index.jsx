@@ -19,13 +19,13 @@ import {
 import ClientInterface from 'assets/img/client.png';
 
 const FeaturesSection = () => (
-  <Features as={Container} id="services">
+  <Features as={Container}>
     {
       services.map((service, i) => (
         <Feature key={i}
           data-aos-delay="10"
+          data-aos="slide-up"
           data-aos-duration="1000"
-          data-aos="zoom-out-center"
           data-aos-easing="ease-in-out-cubic"
         >
           <Icon>
@@ -44,7 +44,7 @@ const WhatWeProvideSection = () => (
   <WhatWeProvide >
     <ImageWrapper
       data-aos-delay="10"
-      data-aos="zoom-out-left"
+      data-aos="slide-up"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out-cubic"
     >
@@ -56,7 +56,7 @@ const WhatWeProvideSection = () => (
           keyPoints.points.map((point, key) => (
             <Point
               data-aos-delay="10"
-              data-aos="zoom-out-right"
+              data-aos="slide-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out-cubic"
             >
@@ -73,28 +73,28 @@ const WhatWeProvideSection = () => (
 
 export const Service = () => {
   return (
-    <Wrapper as={Container}>
+    <Wrapper as={Container} id="services">
       <h1
         data-aos-delay="10"
-        data-aos="zoom-out-left"
+        data-aos="slide-up"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out-cubic">{keyPoints.title}</h1>
       <p
         data-aos-delay="10"
-        data-aos="zoom-out-left"
+        data-aos="slide-up"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out-cubic"
       >Provide turn-key payment services using our hyper integrated API.</p>
       <WhatWeProvideSection />
       <h1
         data-aos-delay="10"
+        data-aos="slide-up"
         data-aos-duration="1000"
-        data-aos="zoom-out-center"
         data-aos-easing="ease-in-out-cubic">Services</h1>
       <p
         data-aos-delay="10"
+        data-aos="slide-up"
         data-aos-duration="1000"
-        data-aos="zoom-out-center"
         data-aos-easing="ease-in-out-cubic">Integrate our API in your software application for a turn-key payment solution.</p>
       <FeaturesSection />
     </Wrapper>
