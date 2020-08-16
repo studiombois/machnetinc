@@ -4,7 +4,7 @@ import { ThemeContext } from 'providers/ThemeProvider';
 import { Footer } from 'components/theme';
 
 import './fonts.css';
-import "aos/dist/aos.css";
+import 'aos/dist/aos.css';
 import { Global } from './styles';
 
 export const Layout = ({ children }) => {
