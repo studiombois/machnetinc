@@ -8,14 +8,26 @@ export const Wrapper = styled.div`
 `;
 
 export const Brand = styled.a`
-  color: ${({ theme }) => (theme === 'light' ? '#fff' : '#fff')};
-  margin-top:15px;
+  display: flex;
+  color: #fff;
+
+  p {
+    display: inline;
+    font-size: 22px;
+    font-family: 'Alata', sans-serif;
+    margin: -1px 0 0 5px;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
 
   @media (max-width: 680px) {
     margin-top:0;
   }
 
   @media (max-width: 960px) {
-    mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+    mix-blend-mode: difference;
   }
 `;

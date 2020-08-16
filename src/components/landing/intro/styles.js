@@ -47,9 +47,9 @@ export const Details = styled.div`
   }
 
   p {
-     font-size: 1rem;
-     font-weight: 100;
-     margin-button:0.25rem;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-button:0.25rem;
     color: ${({ theme }) => (theme === 'light' ? '#fff' : '#fff')};
 
     @media (max-width: 960px) {

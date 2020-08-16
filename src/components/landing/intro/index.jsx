@@ -16,11 +16,11 @@ export const Intro = () => {
       <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
-          <h1>Super API for US domestic and cross border payments</h1>
-          <p>Provide turn-key payment services using our hyper integrated API.</p>
+          <h1>Unified API for US domestic and cross border payments</h1>
+          <p>Regulatory Compliance Program • ACH & Cards Payments • Global Payouts</p>
           <RequestDemo as={AnchorLink} href="#contact">
             Request Demo
-            </RequestDemo>
+          </RequestDemo>
         </Details>
         <Thumbnail>
           <img src={Platform} alt="" />
