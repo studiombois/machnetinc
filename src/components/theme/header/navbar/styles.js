@@ -18,11 +18,6 @@ export const Brand = styled.a`
     margin: -1px 0 0 5px;
   }
 
-  img {
-    width: 30px;
-    height: 30px;
-  }
-
   @media (max-width: 680px) {
     margin-top:0;
   }

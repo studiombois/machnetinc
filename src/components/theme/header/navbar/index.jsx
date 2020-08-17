@@ -6,7 +6,7 @@ import NavbarLinks from '../navbar-links';
 
 import { Wrapper, Brand } from './styles';
 
-import Logo from 'assets/img/logo.png';
+import Logo from 'assets/icons/logo-white.svg';
 
 const Navbar = () => {
 
@@ -14,7 +14,6 @@ const Navbar = () => {
     <Wrapper as={Container}>
       <Brand as={Link} to="/">
         <img src={Logo} alt="logo" />
-        <p>MACHNET</p>
       </Brand>
       <NavbarLinks desktop />
     </Wrapper>
