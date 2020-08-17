@@ -9,9 +9,6 @@ const App = () => (
     <SEO />
     <Intro />
     <Service/>
-    <Usecase />
-    <Clients />
-    <Contact />
   </Layout>
 );
 

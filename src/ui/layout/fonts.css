@@ -27,5 +27,13 @@
     url('./fonts/roboto-v18-latin-700.svg#Roboto') format('svg');
 }
 
+@font-face {
+  font-family: 'futura-pt-bold';
+  src: url('./fonts/futura-pt-bold.otf') format('woff'),
+    url('./fonts/futura-pt-bold.otf') format('opentype'),
+    url('./fonts/futura-pt-bold.otf') format('truetype');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&display=swap');

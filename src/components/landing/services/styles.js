@@ -1,24 +1,30 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  padding: 5rem 0;
+  padding: 3rem 0;
+  margin-top: 7rem;
 
   h1 {
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 500;
+    width: 65%;
+    margin-bottom: 0;
   }
 
   p {
-    text-align: center;
+    text-align: left;
+    color: #3196d4;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0.5rem;
   }
-`
+`;
 
 export const WhatWeProvide = styled.div`
   padding: 1rem 0; 
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 6rem; 
 `;
 
 export const ImageWrapper = styled.div`
@@ -57,34 +63,31 @@ export const Details = styled.div`
 `;
 
 export const Point = styled.div`
-  padding: 25px 20px;
-  width:300px;
+  width: 50%;
+  padding: 25px 30px 0 0;
 
   img {
     width: 50px;
     height: 50px;
     display: block;
-    background: #f3a800;
-    padding: 8px;
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    margin-right: 10px;
     margin-bottom: 15px;
   }
 
   h1 {
-    color: #237aaf;
-    font-size: 15px;
+    color: #0a2540;
+    font-size: 1.2rem;
     font-weight: bold;
     text-align: left;
     margin-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
   }
 
   p{
     margin: 0;
     text-align: left;
-    font-size: small;
+    font-size: 16px;
+    color: #0a2540;
+    font-family: 'Nunito', sans-serif;
   }
 `;
 
@@ -130,12 +133,7 @@ export const Icon = styled.div`
   width: 50px;
   height: 50px;
   padding: 8px;
-  overflow: hidden;
-  background: #a140f7;
   margin-bottom: 20px;
-  border-bottom-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
 
   img {
     width: 100%;

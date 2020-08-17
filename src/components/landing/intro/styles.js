@@ -31,11 +31,11 @@ export const Details = styled.div`
   }
 
   h1 {
-    margin-button:0.25rem;
+    margin-button: 0.25rem;
     font-size: 2.4rem;
     font-weight: 100;
     color: ${({ theme }) => (theme === 'light' ? '#fff' : '#fff')};
-
+    
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
     }
@@ -97,10 +97,36 @@ export const RequestDemo = styled.button`
 	cursor: pointer;
   color: #fff !important;
 	display: block;
-	border: 1px solid #fff;
+  border: 1px solid #fff;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 5px;
 
 	&:hover {
 		color: #3573b9 !important;
 		background: #fff;
-	}
+  }
+  
+  img {
+    padding-left: 5px;
+  }
+`;
+
+export const LearnMore = styled.button`  
+  padding: 5px 18px;
+	width: fit-content;
+	background: transparent;
+	cursor: pointer;
+  color: #fff !important;
+	display: block;
+  display: inline-flex;
+  align-items: center;
+
+	&:hover {
+		color: #f3f3f3 !important;
+  }
+  
+  img {
+    padding-left: 5px;
+  }
 `;

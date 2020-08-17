@@ -54,26 +54,27 @@ export const services = [
 ]
 
 export const keyPoints = {
-  title:'What we provide?',
+  title:'Unified Solution',
+  subTitle:'Integrate our API in your software application for turn-key payment solution',
   points:[
     {
-      title:'Compliance',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam velit sapiente maxime. Quasi, consectetur accusantium.',
+      title:'Regulatory compliance program',
+      description: 'Built-in compliance to meet the US Federal and regulatory requirements',
       icon: Compliance
     },
     {
-      title:'User identification',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam velit sapiente maxime. Quasi, consectetur accusantium.',
+      title:'Realtime user identification',
+      description: 'Your users can connect their US bank accounts and debit cards to pay for the transaction',
       icon: UserVerified
     },
     {
-      title:'Bank & Cards',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam velit sapiente maxime. Quasi, consectetur accusantium.',
+      title:'Connect bank accounts and cards',
+      description: 'Real time KYC and KYB for quick user onboarding',
       icon: Card,
     },
     {
-      title:'Payments',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam velit sapiente maxime. Quasi, consectetur accusantium.',
+      title:'Send & receive payments',
+      description: 'Send and receive personal and business payments with single API integration',
       icon: MoneyTransfer
     },
   ]
