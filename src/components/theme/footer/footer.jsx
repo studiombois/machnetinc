@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "@reach/router"
 
-import { Container } from 'ui';
+import { Container } from '@ui';
 import { Wrapper, Links, Copyright, Brand, BottomFooter, TopFooter } from './styles';
 
 import social from 'data/social.json';

@@ -24,7 +24,6 @@ export const Wrapper = styled.div`
     text-align: left;
     color: #3196d4;
     font-size: 1.2rem;
-    font-family: 'Nunito', sans-serif;
     margin-bottom: 0.5rem;
   }
 `;
@@ -61,7 +60,6 @@ export const Point = styled.div`
     font-weight: bold;
     text-align: left;
     margin-bottom: 10px;
-    font-family: 'Nunito', sans-serif;
   }
 
   p{

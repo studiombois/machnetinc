@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-import Navbar from './navbar';
-import Sidebar from './sidebar';
-import Hamburger from './hamburger';
+import Navbar from './navbar/navbar';
+import Sidebar from './sidebar/sidebar';
+import Hamburger from './hamburger/hamburger';
 
 import { Wrapper, Overlay } from './styles';
 

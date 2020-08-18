@@ -34,10 +34,10 @@ export const Details = styled.div`
     margin-button: 0.25rem;
     font-size: 2.4rem;
     font-weight: 100;
-    color: ${({ theme }) => (theme === 'light' ? '#fff' : '#fff')};
+    color: #fff;
     
     @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+      mix-blend-mode: unset;
     }
 
     @media (max-width: 680px) {
@@ -49,10 +49,10 @@ export const Details = styled.div`
     font-size: 0.9rem;
     font-weight: 100;
     margin-button:0.25rem;
-    color: ${({ theme }) => (theme === 'light' ? '#fff' : '#fff')};
+    color: #fff;
 
     @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+      mix-blend-mode: unset;
     }
 
     @media (max-width: 680px) {
@@ -64,10 +64,10 @@ export const Details = styled.div`
     margin-bottom: 2.5rem;
     font-size: 32pt;
     font-weight: normal;
-    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#e6e6e6')};
+    color: #707070;
 
     @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+      mix-blend-mode: unset;
     }
 
     @media (max-width: 680px) {

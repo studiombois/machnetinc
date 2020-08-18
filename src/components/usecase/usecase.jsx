@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Container } from 'ui';
+import { Container } from '@ui';
 import { Wrapper, Thumbnail, Description, ApiPlatform, Point, Details } from './styles';
 
 import { usecases } from 'data/services';

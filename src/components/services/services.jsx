@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
-import { Container } from 'ui';
+import { Container } from '@ui';
 import { services, keyPoints } from 'data/services';
 
 import {
@@ -87,11 +87,10 @@ const WhatWeProvideSection = () => (
   </WhatWeProvide>
 )
 
-export const Service = () => {
-  return (
-    <Wrapper id="services">
-      <WhatWeProvideSection />
-      {/* <FeaturesSection /> */}
-    </Wrapper>
-  );
-};
+export const Services = () => (
+  <Wrapper id="services">
+    <WhatWeProvideSection />
+    {/* <FeaturesSection /> */}
+  </Wrapper>
+);
+

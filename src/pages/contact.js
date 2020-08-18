@@ -1,11 +1,9 @@
 import React from 'react';
 
-import { Layout, SEO } from 'ui';
-import { Contact } from 'components/landing';
+import { Layout, SEO } from '@ui';
 
 export default () => (
   <Layout>
     <SEO />
-    <Contact />
   </Layout>
 );

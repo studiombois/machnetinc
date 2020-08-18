@@ -1,14 +1,15 @@
 import React from 'react';
 
-import { Layout, SEO } from 'ui';
-import {Clients} from 'components/landing/clients/clients';
-import { Intro, Service, Contact, Usecase } from 'components/landing';
+import { Layout, SEO } from '@ui';
+import { Intro } from 'components/intro/intro';
+import { Contact } from 'components/contact/contact';
+import { Services } from 'components/services/services';
 
 const App = () => (
   <Layout>
     <SEO />
     <Intro />
-    <Service/>
+    <Services/>
     <Contact/>
   </Layout>
 );

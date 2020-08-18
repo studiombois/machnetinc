@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import Recaptcha from 'react-google-recaptcha';
 import { Formik, Form, FastField, ErrorMessage } from 'formik';
 
-import { Button, Input } from 'ui';
+import { Button, Input } from '@ui';
 import { Error, Center, InputField, Row } from './styles';
 
 export default () => (

@@ -1,7 +1,7 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-import { Container } from 'ui';
+import { Container } from '@ui';
 
 import { Wrapper, Details, RequestDemo } from './styles';
 

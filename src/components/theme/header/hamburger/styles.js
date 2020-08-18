@@ -44,11 +44,11 @@ export const Bar = styled.div`
 		width: 1.6rem;
 	}
 
-	${({ top, sidebar, theme }) =>
+	${({ top, sidebar }) =>
     top &&
     sidebar &&
 		`
-		background-color: ${(theme === 'light' ? '#212121' : '#fff')};
+		background-color: #fff;
 		transform: translateY(8px) rotate(-135deg);
 		
 	`}
@@ -60,11 +60,11 @@ export const Bar = styled.div`
 		transform: scale(0);
 		`}
 
-	${({ bottom, sidebar, theme }) =>
+	${({ bottom, sidebar }) =>
     bottom &&
     sidebar &&
 		`
-			background-color: ${(theme === 'light' ? '#212121' : '#fff')};
+			background-color: #212121;
 			transform: translateY(-6px) rotate(-45deg);
 	`}
 `;
