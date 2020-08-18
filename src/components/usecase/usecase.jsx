@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 import { Container } from '@ui';
-import { Wrapper, Thumbnail, Description, ApiPlatform, Point, Details } from './styles';
-
 import { usecases } from 'data/services';
+import { Header } from 'components/theme';
+import { Wrapper, Thumbnail, Description, ApiPlatform, Point, Details } from './styles';
 
 export const Usecase = () => {
   const [api, setApi] = useState(usecases[0].api);
@@ -11,6 +11,7 @@ export const Usecase = () => {
 
   return (
     <Wrapper>
+      <Header />
       <ApiPlatform as={Container}>
         <Description>
           <Details>
