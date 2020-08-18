@@ -4,6 +4,11 @@ export const Wrapper = styled.div`
   padding: 3rem 0;
   margin-top: 7rem;
 
+  @media (max-width: 750px) {
+    margin: 0;
+    padding: 3rem 0 0 0;
+  }
+
   h1 {
     text-align: left;
     font-size: 2rem;

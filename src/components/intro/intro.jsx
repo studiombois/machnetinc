@@ -3,7 +3,17 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { Container } from '@ui';
 import { Header } from 'components/theme';
-import { Wrapper, IntroWrapper, Details, Thumbnail, RequestDemo, LearnMore } from './styles';
+
+import {
+  Wrapper,
+  Details,
+  Thumbnail,
+  LearnMore,
+  Background,
+  RequestDemo,
+  IntroWrapper,
+  WaveBackground,
+} from './styles';
 
 import Platform from 'assets/img/platform.png';
 import Wave from 'assets/illustrations/wave.svg';
@@ -11,8 +21,8 @@ import ArrowDown from 'assets/icons/arrow-down-outline.svg';
 import ArrowForwrd from 'assets/icons/arrow-forward-outline.svg';
 
 export const Intro = () => (
-  <>
-    <Wrapper>
+  <Wrapper>
+    <Background>
       <Header />
       <IntroWrapper as={Container}>
         <Details>
@@ -31,8 +41,8 @@ export const Intro = () => (
           <img src={Platform} alt="" />
         </Thumbnail>
       </IntroWrapper>
-    </Wrapper>
-    <img style={{ marginTop: '-86px', position: 'absolute', zIndex: '-1' }} src={Wave} />
-  </>
+    </Background>
+    <WaveBackground src={Wave} alt="wave" />
+  </Wrapper>
 );
 

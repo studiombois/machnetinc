@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  z-index: 5;
+  z-index: 11122;
   top: 1.6rem;
   right: 1.8rem;
   display: none;
@@ -20,12 +20,12 @@ export const Wrapper = styled.div`
 			top: 1.4rem;
 		
 			@media (max-width: 960px) {
-				right: 35%;
+				right: 34%;
 				position: fixed;
 			}
 		
 			@media (max-width: 600px) {
-				right: 66%;
+				right: 62%;
 			}
 	`}
 `;
@@ -34,7 +34,7 @@ export const Bar = styled.div`
 	width: 1.6rem;
 	height: .15rem;
 	margin-bottom: .3rem;
-	background-color: #212121;
+	background-color: #ffffff;
 	transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91),
 	opacity 500ms,
 	box-shadow 250ms,
@@ -48,7 +48,7 @@ export const Bar = styled.div`
     top &&
     sidebar &&
 		`
-		background-color: #fff;
+		background-color: #212121;
 		transform: translateY(8px) rotate(-135deg);
 		
 	`}

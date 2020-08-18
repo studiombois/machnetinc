@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     text-decoration: none;
 
 		@media (max-width: 960px) {
-			color: #fff;
+			color: #424242;
 		}
   }
 
@@ -33,6 +33,9 @@ export const Wrapper = styled.div`
 			padding: 3rem;
 			display: flex;
 			flex-direction: column;
+			@media (max-width: 960px) {
+				padding: 4rem 2rem;
+			}
 
 			a {
 					margin-bottom: 1rem;
