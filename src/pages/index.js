@@ -9,6 +9,7 @@ const App = () => (
     <SEO />
     <Intro />
     <Service/>
+    <Contact/>
   </Layout>
 );
 

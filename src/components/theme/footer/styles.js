@@ -48,22 +48,13 @@ export const Links = styled.div`
     color: #78757a;
     margin: 0 0.5rem;
 
-    img {
-      margin: 0;
-    }
-
-    ion-icon {
-      color: #78757a;
-      margin-right: 5px;
-    }
-
     &:hover {
       color: #663399;
     }
 
-    &:first-child,
-    &:last-child {
-      margin: 0;
+    @media (max-width: 680px) {
+      display: block;
+      padding: 3px;
     }
   }
 `;

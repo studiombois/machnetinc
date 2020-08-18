@@ -8,7 +8,7 @@ import { Wrapper, Details, RequestDemo } from './styles';
 export const Contact = () => (
   <Wrapper>
     <Details as={Container}>
-      <h1>Integrate our API in your software application for a turn-key payment solution.</h1>
+      <h1>Provide <span>turn-key payment services</span> using our hyper integrated API.</h1>
       <RequestDemo as={AnchorLink} href="/contact">
         Request Demo
       </RequestDemo>

@@ -16,19 +16,10 @@ export const Footer = () => (
         <p>Unified API for US domestic and cross border payments</p>
       </Brand>
       <Links >
-        <Link to="/">
-          <ion-icon name="home-outline"></ion-icon>
-          Home
-        </Link>
-        <Link to="/">
-          <ion-icon name="business-outline"></ion-icon>About Us
-        </Link>
-        <Link to="/">
-          <ion-icon name="pricetag-outline"></ion-icon>Pricing
-        </Link>
-        <Link to="/contact">
-          <ion-icon name="call-outline"></ion-icon>Contact
-        </Link>
+        <Link to="/">Home</Link>
+        <Link to="/">About Us</Link>
+        <Link to="/">Pricing</Link>
+        <Link to="/contact">Contact</Link>
       </Links>
       {/* <Links>
         {social.map(({ id, name, link, icon }) => (

@@ -19,7 +19,7 @@ export const services = [
   },
   {
     title: "Instant account verification",
-    description: "Instantly authenticate bank accounts. Protect against overdraft and NSF fees by having visibility into available funds. Retrieve trans...",
+    description: "Instantly authenticate bank accounts. Protect against overdraft and NSF fees by having visibility into available funds...",
     icon: Bank
   },
   {
