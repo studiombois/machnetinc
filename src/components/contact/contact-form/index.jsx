@@ -21,6 +21,7 @@ export default () => (
       companyWebsite: '',
       success: false,
     }}
+
     validationSchema={Yup.object().shape({
       name: Yup.string().required('Full name is required'),
       phone: Yup.string().required('Phone number is required'),
@@ -31,6 +32,7 @@ export default () => (
       message: Yup.string().required('Message field is required'),
       recaptcha: Yup.string().required('Robots are not welcome yet!'),
     })}
+
     onSubmit={async ({ name, email, message }, { setSubmitting, resetForm, setFieldValue }) => {
       try {
         await axios({
@@ -61,7 +63,7 @@ export default () => (
     }}
   >
     {({ values, touched, errors, setFieldValue, isSubmitting }) => (
-      <Form>
+      <Form style={{ margin: "0 -1rem 0 -1rem" }}>
         <InputField>
           <Input
             as={FastField}

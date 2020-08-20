@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
- 
 `;
 
 export const Background = styled.div`
@@ -25,7 +24,7 @@ export const WaveBackground = styled.img`
 `;
 
 export const IntroWrapper = styled.div`
-  padding: 0rem 0;
+  padding: 3rem 0 0 0;
   display: flex;
   align-items: center;
   justify-content: space-between;

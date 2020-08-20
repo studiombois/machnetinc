@@ -64,12 +64,12 @@ export const keyPoints = {
     },
     {
       title:'Realtime user identification',
-      description: 'Your users can connect their US bank accounts and debit cards to pay for the transaction',
+      description: 'Real time KYC and KYB for quick user onboarding',
       icon: UserVerified
     },
     {
       title:'Connect bank accounts and cards',
-      description: 'Real time KYC and KYB for quick user onboarding',
+      description: 'Your users can connect their US bank accounts and debit cards to pay for the transaction',
       icon: Card,
     },
     {

@@ -30,7 +30,7 @@ const Platform = () => {
             Hyper integrated API to address your <u>domestic</u> and{' '}
             <u>cross-border</u> payment requirements.
           </p>
-          <LearnMore as={AnchorLink} href="#usecase">
+          <LearnMore as={AnchorLink} href="#services">
             Learn More
             <img src={ArrowDown} width="22" alt="learn more" />
           </LearnMore>

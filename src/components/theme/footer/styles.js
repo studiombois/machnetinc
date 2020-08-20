@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+  background: #f6f6f6;
+`;
+
+export const Background = styled.div`
+  background: #3597d4;
+  border-top-right-radius: 120px;
+
   padding: 2rem 0;
 
   @media (max-width: 1960px) {
@@ -15,6 +22,7 @@ export const Wrapper = styled.div`
 export const TopFooter = styled.div`
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
 
   @media (max-width: 750px) {
@@ -23,10 +31,9 @@ export const TopFooter = styled.div`
 `;
 
 export const Brand = styled.div`
-  max-width: 300px;
-
   p {
-    color: #78757a;
+    margin: 0;
+    color: #fff;
     font-size: small;
   }
 
@@ -36,20 +43,34 @@ export const Brand = styled.div`
   }
 `;
 
+export const RightMenu = styled.div`
+  display: flex;
+
+  @media (max-width: 750px){
+    display: block;
+    text-align: center;
+	}
+`;
+
 export const Links = styled.div`
+  color: #fff;
   text-align: right;
   font-size: ${({varient}) => varient};
   
-  @media (max-width: 680px) {
+  @media (max-width: 750px) {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
   }
   
   a {
-    color: #78757a;
+    color: #9cfffe;
     margin: 0 0.5rem;
+    font-weight: bold;
 
     &:hover {
-      color: #663399;
+      color: #8aeff1;
     }
 
     @media (max-width: 680px) {
@@ -72,6 +93,9 @@ export const BottomFooter = styled.div`
 `;
 
 export const Copyright = styled.div`
-  font-size: small;
-  color: #848383;
+  color: #fff;
+
+  @media (max-width: 750px) {
+    margin-top: 20px;
+  }
 `;
