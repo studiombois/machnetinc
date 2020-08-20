@@ -94,3 +94,7 @@ export const Services = () => (
   </Wrapper>
 );
 
+
+export const IDK = () => (
+  <FeaturesSection />
+)

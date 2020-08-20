@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   a {
-		color: #fff;
+		color: ${({variant}) => variant ==='light'?'#fff':'#2964a7'};
 		font-size: .875rem;
     text-decoration: none;
 

@@ -23,7 +23,7 @@ import ArrowForwrd from 'assets/icons/arrow-forward-outline.svg';
 export const Intro = () => (
   <Wrapper>
     <Background>
-      <Header />
+      <Header variant="light" />
       <IntroWrapper as={Container}>
         <Details>
           <h1>Unified API for US domestic and cross border payments</h1>

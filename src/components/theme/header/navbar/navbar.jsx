@@ -6,14 +6,15 @@ import NavbarLinks from '../navbar-links/navbar-links';
 
 import { Wrapper, Brand } from './styles';
 
-import Logo from 'assets/icons/logo-white.svg';
+import LogoDark from 'assets/icons/logo-blue.svg';
+import LogoLight from 'assets/icons/logo-white.svg';
 
-const Navbar = () => (
+const Navbar = ({ variant }) => (
   <Wrapper as={Container}>
     <Brand as={Link} to="/">
-      <img src={Logo} alt="logo" />
+      <img src={variant === 'light' ? LogoLight : LogoDark} alt="logo" />
     </Brand>
-    <NavbarLinks desktop />
+    <NavbarLinks desktop variant={variant} />
   </Wrapper>
 );
 

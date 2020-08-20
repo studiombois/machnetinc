@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
- 
+  padding: 0;
 `;
 
 export const Background = styled.div`
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 
   /* background by SVGBackgrounds.com */
   background-color: #3196d4;
@@ -24,19 +24,12 @@ export const WaveBackground = styled.img`
   }
 `;
 
-export const IntroWrapper = styled.div`
-  padding: 0rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  @media (max-width: 960px) {
-    flex-direction: column;
+export const Intro =  styled.div`
+  img {
+    width: 110px;
+    display: block;
+    margin: 2rem auto;
   }
-`;
-
-export const Details = styled.div`
-  flex: 1;
 
   @media (max-width: 960px) {
     width: 100%;
@@ -44,10 +37,10 @@ export const Details = styled.div`
   }
 
   h1 {
-    margin-button: 0.25rem;
-    font-size: 2.4rem;
-    font-weight: 100;
     color: #fff;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-button: 0.25rem;
     
     @media (max-width: 960px) {
       mix-blend-mode: unset;
@@ -59,10 +52,10 @@ export const Details = styled.div`
   }
 
   p {
-    font-size: 0.9rem;
-    font-weight: 100;
-    margin-button:0.25rem;
     color: #fff;
+    font-size: 1.2rem;
+    margin-button:0.25rem;
+    text-align: center;
 
     @media (max-width: 960px) {
       mix-blend-mode: unset;
@@ -70,6 +63,10 @@ export const Details = styled.div`
 
     @media (max-width: 680px) {
       font-size: 1rem;
+    }
+
+    u {
+      // color: red;
     }
   }
 `;
@@ -83,25 +80,24 @@ export const Thumbnail = styled.div`
   }
 
   img {
-    margin: 0;
-    width: 100%;
+    margin: auto;
+    width: auto;
     z-index: 1111;
+    display: block;
     position: relative;
   }
 `;
 
-export const RequestDemo = styled.button`  
-  padding: 5px 18px;
+export const LearnMore = styled.button`  
+  padding: 6px 18px;
 	width: fit-content;
 	background: transparent;
 	border-radius: 16px;
 	cursor: pointer;
   color: #fff !important;
-	display: block;
   border: 1px solid #fff;
-  display: inline-flex;
-  align-items: center;
-  margin-right: 5px;
+  display: flex;
+  margin: 3rem auto;
 
 	&:hover {
 		color: #3573b9 !important;
@@ -109,25 +105,8 @@ export const RequestDemo = styled.button`
   }
   
   img {
-    padding-left: 5px;
-  }
-`;
-
-export const LearnMore = styled.button`  
-  padding: 5px 18px;
-	width: fit-content;
-	background: transparent;
-	cursor: pointer;
-  color: #fff !important;
-	display: block;
-  display: inline-flex;
-  align-items: center;
-
-	&:hover {
-		color: #f3f3f3 !important;
-  }
-  
-  img {
+    margin: 0;
+    width: 22px;
     padding-left: 5px;
   }
 `;

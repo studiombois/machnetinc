@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import { Container } from '@ui';
 import { usecases } from 'data/services';
-import { Header } from 'components/theme';
 import { Wrapper, Thumbnail, Description, ApiPlatform, Point, Details } from './styles';
 
 export const Usecase = () => {
@@ -10,8 +9,7 @@ export const Usecase = () => {
   const [height, setHeight] = useState(usecases[0].height);
 
   return (
-    <Wrapper>
-      <Header />
+    <Wrapper id="usecase">
       <ApiPlatform as={Container}>
         <Description>
           <Details>
