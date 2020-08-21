@@ -13,43 +13,60 @@ import GlobalSettlement from 'assets/icons/global-settlement.svg';
 
 export const services = [
   {
+    id: 1,
     title: "Identity",
     description: "Multi-layered process to access thousands of data sources containing billions of public records to instantly validate an identity while also...",
-    icon: Identity
+    icon: Identity,
+    path:'/identity',
   },
   {
+    id: 2,
     title: "Instant account verification",
     description: "Instantly authenticate bank accounts. Protect against overdraft and NSF fees by having visibility into available funds...",
-    icon: Bank
+    icon: Bank,
+    path:'/instant-account-verification',
   },
   {
+    id:3,
     title: "Same day ACH",
     description: "Same day and next day ACH transfer available as per the requirement of the speed, depending on the user and type of transfer.",
-    icon: ACH
+    icon: ACH,
+    path:'/same-day-ach',
   },
   {
+    id:4,
     title: "Card Payments",
     description: "Receive Payments from any debit or credit card. Know card type and fee prior to payment. Disburse to any US Visa/MasterCard...",
-    icon: Card
+    icon: Card,
+    path:'/card-payments',
   },
   {
+    id:5,
     title:"Risk & fraud",
     description: "Real-time risk assessment using personal, financial and behavioral signals from our platform and a global data network.",
-    icon: Risk
+    icon: Risk,
+    path:'/risk-and-fraud',
   },
   {
+    id:6,
     title: "Built-in-compliance",
     description:"Sanction List checks, including requirements for Customer Identification Programs (CIP) and Office of Foreign Assets Controls (OFAC).",
     icon: Compliance,
+    path:'/build-in-compliance',
   },
   {
+    id:7,
     title: "Security",
     description:"End-to-end encryption, PCI compliant card processing, transaction monitoring, built in risk assessment & fraud detection applications.",
     icon: Security,
-  },{
+    path:'/security',
+  },
+  {
+    id:8,
     title: "Global settlement & Payout",
     description:"Single API for real‑time Cross‑border Payments in more than 100 countries. Send payment instantly in local currency...",
     icon: GlobalSettlement,
+    path:'/global-settlement-and-payout',
   }
 ]
 

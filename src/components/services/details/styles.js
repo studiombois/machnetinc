@@ -1,0 +1,136 @@
+import styled from 'styled-components';
+
+export const Wrapper = styled.div`
+  padding: 1rem 10px;
+
+   p {
+    color: #484848;
+    min-width: 100%;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+`;
+
+export const Title = styled.div`
+  display: flex;
+
+  h1 {
+    display: inline-block;
+    width: max-content;
+    font-size: 1.5rem;
+  }
+  
+  img {
+    width: 25px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+`;
+
+export const Content = styled.div`
+  padding: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+`;
+
+export const Column = styled.div`
+  flex: 1;
+  padding: 25px;
+
+	&:last-child {
+		padding-right: unset;
+  }
+  
+  &:first-child {
+		padding-left: unset;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    background: #3999d5;
+    padding: 9px 0;
+    width: max-content;
+    border-radius: 6px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 54px;
+    text-align: center;
+  }
+
+  table {
+    width: 80%;
+    color: #727272;
+    padding: 8px 20px;
+    margin-bottom: 30px; 
+    box-shadow: 0px 4px 10px #18181838;
+    
+    tr {
+      td{
+        padding: 5px 15px;
+        font-size: 12px;
+      } 
+    }
+  }
+`;
+
+export const LinkYourBank = styled.div`
+  max-width: 80%;
+  padding: 8px 20px;
+  margin-bottom: 30px; 
+  box-shadow: 0px 4px 10px #18181838;
+
+  @media (max-width: 750px) {
+    max-width: 100%;;
+  }
+
+  p {
+    margin: 0;
+    font-weight: bold;
+  }
+`;
+
+export const Loader = styled.div`
+  display: block;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  background: #eaeaea;
+  width: ${({width}) => width};
+`;
+
+export const Box = styled.div`
+  padding: 20px;
+  border-radius: 3px;
+  margin: 30px 0 20px 0;
+  background-image: linear-gradient(to bottom right, #b0b0b0, #606060);
+
+  p {
+    padding: 0;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  h1 {
+    padding: 0;
+    width: 100%;
+    background: none;
+    text-align: left;
+    font-family: 'Inter',sans-serif;
+  }
+`;
+
+export const BoxFooter = styled.div`
+  color: #fff;
+  display: flex;
+  margin-top: 7rem;
+
+  img {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+`;

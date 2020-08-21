@@ -7,7 +7,7 @@ import { Wrapper, RequestDemo } from './styles';
 const NavbarLinks = ({ desktop, variant }) => (
   <Wrapper variant={variant} desktop={desktop}>
     <Link to="/platform">Platform</Link>
-    <AnchorLink href="#contact">Pricing</AnchorLink>
+    <Link to="#contact">Pricing</Link>
     <AnchorLink href="#about">About</AnchorLink>
   </Wrapper>
 )

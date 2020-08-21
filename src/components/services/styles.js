@@ -116,7 +116,7 @@ export const Feature = styled.div`
   }
 
   h1 {
-    font-size: 15px;
+    font-size: 1rem;
     text-align: left;
     margin-bottom: 10px;
     color: #3673b9;
@@ -124,20 +124,22 @@ export const Feature = styled.div`
 
   p {
     text-align: left;
-    font-size: small;
+    font-size: 1rem;
     color: #484848;
     margin-bottom: 10px;
   }
-
-  a {
-    font-size: small;
-    margin: 0;
-
-    &:hover {
-      color: #3673b9;
-    }
-  }
 }
+`;
+
+export const ReadMore = styled.div`
+  font-size: small;
+  margin: 0;
+  cursor: pointer;
+  color: #624792;
+
+  &:hover {
+    color: #3673b9;
+  }
 `;
 
 export const Icon = styled.div`
