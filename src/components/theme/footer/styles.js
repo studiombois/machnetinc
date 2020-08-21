@@ -1,13 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  background: #f6f6f6;
-`;
-
-export const Background = styled.div`
   background: #3597d4;
-  border-top-right-radius: 120px;
-
   padding: 2rem 0;
 
   @media (max-width: 1960px) {
