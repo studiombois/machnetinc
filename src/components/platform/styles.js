@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div `
   padding: 0;
 `;
 
-export const Background = styled.div`
+export const Background = styled.div `
   padding-bottom: 10rem;
 
   /* background by SVGBackgrounds.com */
@@ -14,7 +14,7 @@ export const Background = styled.div`
   background-size: cover;
 `;
 
-export const WaveBackground = styled.img`
+export const WaveBackground = styled.img `
   z-index: -1;
   margin-top: -86px;
   position: absolute;
@@ -24,23 +24,30 @@ export const WaveBackground = styled.img`
   }
 `;
 
-export const Intro =  styled.div`
-  img {
-    width: 110px;
-    display: block;
-    margin: 2rem auto;
+export const IntroWrapper = styled.div `
+  display: flex;
+  padding: 3rem 0 0 0;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 960px) {
+    flex-direction: column;
   }
+`;
+
+export const Intro = styled.div `
+  flex: 1;
 
   @media (max-width: 960px) {
     width: 100%;
     margin-bottom: 2rem;
   }
-
+ 
   h1 {
     color: #fff;
+    font-weight: 100;
     font-size: 2.4rem;
-    text-align: center;
-    margin-button: 0.25rem;
+    margin: 7rem 0 0.25rem 0;
     
     @media (max-width: 960px) {
       mix-blend-mode: unset;
@@ -53,9 +60,8 @@ export const Intro =  styled.div`
 
   p {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-button:0.25rem;
-    text-align: center;
 
     @media (max-width: 960px) {
       mix-blend-mode: unset;
@@ -64,31 +70,41 @@ export const Intro =  styled.div`
     @media (max-width: 680px) {
       font-size: 1rem;
     }
-
-    u {
-      // color: red;
-    }
   }
 `;
 
-export const Thumbnail = styled.div`
+export const Thumbnail = styled.div `
   flex: 1;
-  max-width: 500px;
+  position: relative;
 
   @media (max-width: 960px) {
     width: 100%;
   }
-
-  img {
-    margin: auto;
-    width: auto;
-    z-index: 1111;
-    display: block;
-    position: relative;
-  }
 `;
 
-export const LearnMore = styled.button`  
+export const Tab = styled.img `
+  width: 400px;
+  z-index: 1111;
+  display: block;
+  position: relative;
+  border-radius: 15px;
+  margin: 100px 0 0 60px;
+  border: 15px solid #272728;
+  box-shadow: 1px 14px 32px #000000d1;
+`;
+
+export const Mobile = styled.img `
+  z-index: 1111;
+  display: block;
+  position: relative;
+  border-radius: 28px;
+  top: 0;
+  right: 0px;
+  position: absolute;
+  box-shadow: 1px 20px 32px #00000069;
+`;
+
+export const LearnMore = styled.button `  
   padding: 6px 18px;
 	width: fit-content;
 	background: transparent;
@@ -97,7 +113,7 @@ export const LearnMore = styled.button`
   color: #fff !important;
   border: 1px solid #fff;
   display: flex;
-  margin: 3rem auto;
+  margin: 3rem 0;
 
 	&:hover {
 		color: #3573b9 !important;
