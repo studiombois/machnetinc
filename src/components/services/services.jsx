@@ -21,7 +21,9 @@ import {
   FeaturesHeader,
 } from './styles';
 
-const renderPage = (page) => {
+import './styles.css';
+
+const renderServiceDetails = (page) => {
   const pages = [
     <Identity />,
     <InstantAccountVerification />,
@@ -36,55 +38,74 @@ const renderPage = (page) => {
   return pages[page - 1];
 }
 
-const renderFeatures = (setPage) => (
-  <Features as={Container}>
-    {
-      services.map((service, i) => (
-        <Feature key={i}
-          data-aos-delay="10"
-          data-aos="slide-up"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out-cubic"
-        >
-          <Icon>
-            <img src={service.icon} alt={service.title} />
-          </Icon>
-          <h1>{service.title}</h1>
-          <p>{service.description}</p>
-          <ReadMore onClick={() => {
-            window.scrollTo(1000, 1000);
-            setPage(service.id)
-          }}>
-            Read More &gt;</ReadMore>
-        </Feature>
-      ))
-    }
-  </Features>
-)
-
-const Services = () => {
+const FeaturesSection = () => {
   const [page, setPage] = useState();
+  const [service, setService] = useState('');
+
+  const open = (title) => {
+    setService(title)
+  }
+
+  const close = () => {
+    setService('');
+  }
+
+  const getClassName = (title) => {
+    return service === title ? 'card is-expanded' : 'card is-collapsed'
+  }
 
   return (
-    <Wrapper id="services">
-      <FeaturesHeader as={Container}>
-        <p
-          data-aos-delay="10"
-          data-aos="slide-up"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out-cubic">Services</p>
-        <h1
-          data-aos-delay="10"
-          data-aos="slide-up"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out-cubic"
-        >Integrate our API in your software application for <span>turn-key payment solution</span></h1>
-      </FeaturesHeader>
+    <Features as={Container}>
+      < div className="cards">
+        {
+          services.map((service, i) => (
+            <div key={i} className={getClassName(service.title)}>
+              <div className="card__inner">
+                <Feature
+                  data-aos-delay="10"
+                  data-aos="slide-up"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out-cubic"
+                >
+                  <Icon>
+                    <img src={service.icon} alt={service.title} />
+                  </Icon>
+                  <h1>{service.title}</h1>
+                  <p>{service.description}</p>
+                  <ReadMore onClick={() => { setPage(service.id), open(service.title) }}>
+                    Read More &gt;</ReadMore>
+                </Feature>
+              </div>
+              <div className="card__expander">
+                <span className="close" onClick={close}>&#x2715;</span>
+                {renderServiceDetails(page)}
+              </div>
+            </div>
+          ))
 
-      {page > 0 && renderPage(page)}
-      {renderFeatures(setPage)}
-    </Wrapper>
+        }
+      </div>
+    </Features>
   )
-};
+}
+
+const Services = () => (
+  <Wrapper id="services">
+    <FeaturesHeader as={Container}>
+      <p
+        data-aos-delay="10"
+        data-aos="slide-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out-cubic">Services</p>
+      <h1
+        data-aos-delay="10"
+        data-aos="slide-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out-cubic"
+      >Integrate our API in your software application for <span>turn-key payment solution</span></h1>
+    </FeaturesHeader>
+    <FeaturesSection />
+  </Wrapper>
+)
 
 export default Services;

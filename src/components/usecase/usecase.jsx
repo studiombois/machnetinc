@@ -30,12 +30,7 @@ export const Usecase = () => {
             }
           </Details>
         </Description>
-        <Thumbnail
-          data-aos-delay="10"
-          data-aos="slide-up"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out-cubic"
-        >
+        <Thumbnail>
           <iframe
             src={api}
             style={{ width: "597px", height: `${height}`, border: "0", transform: "scale(1)", overflow: "hidden" }}

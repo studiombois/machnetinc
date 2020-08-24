@@ -94,11 +94,17 @@ const renderLinkYourBankIcon = () => (
 
 const InstantAccountVerification = () => {
   return (
-    <Wrapper as={Container} id="details">
+    <Wrapper id="details">
       <Title>
-        <img src={Bank} alt="bank" />
+        {/* <img src={Bank} alt="bank" /> */}
         <h1>Instant Account Verification</h1>
       </Title>
+      <p>
+        Instantly authenticate bank accounts. Protect against overdraft and NSF
+        fees by having visibility into available funds. Retrieve transaction
+        data, including enhanced geolocation, merchant, and category
+        information.
+      </p>
       <Content>
         <Column>
           {renderLinkYourBankIcon()}

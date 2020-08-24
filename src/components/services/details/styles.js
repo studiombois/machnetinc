@@ -4,10 +4,10 @@ export const Wrapper = styled.div`
   padding: 1rem 10px;
 
    p {
-    color: #484848;
     min-width: 100%;
-    font-size: 1rem;
+    font-size: 15px !important;
     padding: 1rem 0;
+    color: #484848 !important;
   }
 `;
 
@@ -17,7 +17,6 @@ export const Title = styled.div`
   h1 {
     display: inline-block;
     width: max-content;
-    font-size: 1.5rem;
   }
   
   img {
@@ -36,6 +35,8 @@ export const Content = styled.div`
 export const Column = styled.div`
   flex: 1;
   padding: 25px;
+  font-size: 15px;
+  color: #484848 !important;;
 
 	&:last-child {
 		padding-right: unset;
@@ -49,14 +50,14 @@ export const Column = styled.div`
     font-weight: bold;
     font-family: 'Righteous', cursive;
     color: #fff;
-    background: #3999d5;
+    background: #7a7a7a;
     padding: 9px 0;
     width: max-content;
     border-radius: 6px;
     margin: auto;
-    margin-bottom: 20px;
-    width: 54px;
-    text-align: center;
+    margin-bottom: 20px !important;
+    width: 54px !important;
+    text-align: center !important;
   }
 
   table {
@@ -88,6 +89,7 @@ export const LinkYourBank = styled.div`
   p {
     margin: 0;
     font-weight: bold;
+    font-size: 15px;
   }
 `;
 
@@ -107,15 +109,16 @@ export const Box = styled.div`
 
   p {
     padding: 0;
-    color: #fff;
+    color: #fff !important;
     font-weight: 400;
+    font-size: 15px;
   }
 
   h1 {
     padding: 0;
-    width: 100%;
+    width: 100% !important;
     background: none;
-    text-align: left;
+    text-align: left !important;
     font-family: 'Inter',sans-serif;
   }
 `;

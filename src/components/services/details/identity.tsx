@@ -7,9 +7,9 @@ import Id from 'assets/icons/identity.svg';
 
 const Identity = () => {
   return (
-    <Wrapper as={Container} id="details">
+    <Wrapper id="details">
       <Title>
-        <img src={Id} alt="identity" />
+        {/* <img src={Id} alt="identity" /> */}
         <h1>Identity</h1>
       </Title>
       <p>

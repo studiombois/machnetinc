@@ -106,14 +106,10 @@ export const Features = styled.div`
 `;
 
 export const Feature = styled.div`
-  width: 23%;
-  padding: 15px;
+  padding: 20px 15px;
+  height: 100%;
   margin: 10px 10px 25px 10px;
   box-shadow: 0px 4px 10px #0000001c;
-  
-  @media (max-width: 750px) {
-    width: 100%;
-  }
 
   h1 {
     font-size: 1rem;
@@ -124,7 +120,7 @@ export const Feature = styled.div`
 
   p {
     text-align: left;
-    font-size: 1rem;
+    font-size: 15px;
     color: #484848;
     margin-bottom: 10px;
   }

@@ -15,14 +15,14 @@ export const services = [
   {
     id: 1,
     title: "Identity",
-    description: "Multi-layered process to access thousands of data sources containing billions of public records to instantly validate an identity while also...",
+    description: "Multi-layered process to access thousands of data sources containing billions of public records to instantly validate an identity while...",
     icon: Identity,
     path:'/identity',
   },
   {
     id: 2,
     title: "Instant account verification",
-    description: "Instantly authenticate bank accounts. Protect against overdraft and NSF fees by having visibility into available funds...",
+    description: "Instantly authenticate bank accounts. Protect against overdraft and NSF fees by having visibility into...",
     icon: Bank,
     path:'/instant-account-verification',
   },
@@ -50,7 +50,7 @@ export const services = [
   {
     id:6,
     title: "Built-in-compliance",
-    description:"Sanction List checks, including requirements for Customer Identification Programs (CIP) and Office of Foreign Assets Controls (OFAC).",
+    description:"Sanction List checks, including requirements for Customer Identification Programs (CIP) and Office of Foreign Assets...",
     icon: Compliance,
     path:'/build-in-compliance',
   },
@@ -64,7 +64,7 @@ export const services = [
   {
     id:8,
     title: "Global settlement & Payout",
-    description:"Single API for real‑time Cross‑border Payments in more than 100 countries. Send payment instantly in local currency...",
+    description:"Single API for real‑time Cross‑border Payments in more than 100 countries. Send payment instantly in local...",
     icon: GlobalSettlement,
     path:'/global-settlement-and-payout',
   }
