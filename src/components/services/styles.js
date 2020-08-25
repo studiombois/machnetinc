@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  padding: 4rem 0;
-  margin-top: 7rem;
+  padding: 3rem 0;
 
   @media (max-width: 750px) {
     margin: 0;
@@ -106,8 +105,8 @@ export const Features = styled.div`
 `;
 
 export const Feature = styled.div`
-  padding: 20px 15px;
   height: 100%;
+  padding: 20px 15px;
   margin: 10px 10px 25px 10px;
   box-shadow: 0px 4px 10px #0000001c;
 
@@ -119,10 +118,16 @@ export const Feature = styled.div`
   }
 
   p {
-    text-align: left;
-    font-size: 15px;
     color: #484848;
+    font-size: 15px;
+    text-align: left;
     margin-bottom: 10px;
+  }
+
+  a {
+    display: block;
+    font-size: 15px;
+    margin-top: 20px;
   }
 }
 `;
@@ -149,5 +154,3 @@ export const Icon = styled.div`
     display: block; 
   }
 `;
-
-

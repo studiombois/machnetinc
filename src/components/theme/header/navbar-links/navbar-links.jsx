@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "@reach/router"
+import { Link } from "@reach/router";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { Wrapper, RequestDemo } from './styles';

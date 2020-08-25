@@ -96,7 +96,6 @@ const InstantAccountVerification = () => {
   return (
     <Wrapper id="details">
       <Title>
-        {/* <img src={Bank} alt="bank" /> */}
         <h1>Instant Account Verification</h1>
       </Title>
       <p>

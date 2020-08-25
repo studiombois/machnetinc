@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "@reach/router"
 
 import { Container } from '@ui';
 import { services } from 'data/services';
@@ -38,7 +39,7 @@ const renderServiceDetails = (page) => {
   return pages[page - 1];
 }
 
-const FeaturesSection = () => {
+const FeaturesSection = ({ currentPage }) => {
   const [page, setPage] = useState();
   const [service, setService] = useState('');
 
@@ -58,7 +59,7 @@ const FeaturesSection = () => {
     <Features as={Container}>
       < div className="cards">
         {
-          services.map((service, i) => (
+          services.filter(service => service.title !== currentPage).map((service, i) => (
             <div key={i} className={getClassName(service.title)}>
               <div className="card__inner">
                 <Feature
@@ -72,8 +73,9 @@ const FeaturesSection = () => {
                   </Icon>
                   <h1>{service.title}</h1>
                   <p>{service.description}</p>
-                  <ReadMore onClick={() => { setPage(service.id), open(service.title) }}>
-                    Read More &gt;</ReadMore>
+                  <Link to={service.path}>Read More &gt;</Link>
+                  {/* <ReadMore onClick={() => { setPage(service.id), open(service.title) }}>
+                    Read More &gt;</ReadMore> */}
                 </Feature>
               </div>
               <div className="card__expander">
@@ -89,7 +91,7 @@ const FeaturesSection = () => {
   )
 }
 
-const Services = () => (
+const Services = ({ currentPage = '' }) => (
   <Wrapper id="services">
     <FeaturesHeader as={Container}>
       <p
@@ -104,7 +106,7 @@ const Services = () => (
         data-aos-easing="ease-in-out-cubic"
       >Integrate our API in your software application for <span>turn-key payment solution</span></h1>
     </FeaturesHeader>
-    <FeaturesSection />
+    <FeaturesSection currentPage={currentPage} />
   </Wrapper>
 )
 

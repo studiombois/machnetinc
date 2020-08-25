@@ -1,12 +1,18 @@
 import React from 'react';
 
-import { Layout, SEO } from '@ui';
+import { Layout, SEO, Container } from '@ui';
 
-import { Header } from 'components/theme';
+import PageHeader from 'components/page/page-title';
+import Services from 'components/services/services';
+import RiskAndFraud from 'components/services/details/risk-and-fraud';
 
 export default () => (
   <Layout>
     <SEO />
-    <Header variant="dark"/>
+    <PageHeader title="" />
+    <Container>
+      <RiskAndFraud/>
+    </Container>
+    <Services currentPage="Risk & fraud"/>
   </Layout>
 );

@@ -27,8 +27,8 @@ export const WaveBackground = styled.img`
 `;
 
 export const Title = styled.h1`
-  font-size: 2rem;
-  font-weight: 400;
   color: #fff;
+  font-size: 2rem;
+  font-weight: 100;
   margin-bottom: 0;
 `;

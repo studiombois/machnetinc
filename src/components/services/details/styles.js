@@ -5,8 +5,8 @@ export const Wrapper = styled.div`
 
    p {
     min-width: 100%;
-    font-size: 15px !important;
     padding: 1rem 0;
+    font-size: 15px !important;
     color: #484848 !important;
   }
 `;
@@ -15,8 +15,9 @@ export const Title = styled.div`
   display: flex;
 
   h1 {
-    display: inline-block;
+    font-weight: 100;
     width: max-content;
+    display: inline-block;
   }
   
   img {
@@ -27,7 +28,7 @@ export const Title = styled.div`
 `;
 
 export const Content = styled.div`
-  padding: 2rem 0;
+  padding: 0;
   display: flex;
   flex-flow: row wrap;
 `;
@@ -104,7 +105,7 @@ export const Loader = styled.div`
 export const Box = styled.div`
   padding: 20px;
   border-radius: 3px;
-  margin: 30px 0 20px 0;
+  margin: 0 0 20px 0;
   background-image: linear-gradient(to bottom right, #b0b0b0, #606060);
 
   p {
@@ -135,5 +136,34 @@ export const BoxFooter = styled.div`
     background: #fff;
     border-radius: 50%;
     margin: 0 10px;
+  }
+`;
+
+export const BankNetwork = styled.div`
+  max-width: 400px;
+  padding: 60px 24px;
+  border-radius: 3px;
+  margin: 0px 0 20px 0;
+  box-shadow: 0px 4px 10px #18181847;
+`;
+
+export const CardNetwork = styled.div`
+  padding: 40px 0;
+  max-width: 400px;
+  border-radius: 3px;
+  margin: 0px 0 20px 0;
+  box-shadow: 0px 4px 10px #18181847;
+
+  img {
+    display: block;
+    margin: auto;
+  }
+`;
+
+export const RiskAndFraudThumbnail = styled.img`
+  padding: 0 100px;
+
+  @media (max-width: 750px) {
+    padding: 0 20px; 
   }
 `;

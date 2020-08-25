@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import { Layout, SEO } from '@ui';
 
@@ -10,7 +11,13 @@ export default () => (
   <Layout>
     <SEO />
     <Platform/>
-    <Services/>
+    <ServiceWrapper>
+      <Services/>
+    </ServiceWrapper>
     <Usecase/>
   </Layout>
 );
+
+const ServiceWrapper = styled.div`
+  margin-top: 7rem;
+`;

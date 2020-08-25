@@ -1,12 +1,18 @@
 import React from 'react';
 
-import { Layout, SEO } from '@ui';
+import { Layout, SEO, Container } from '@ui';
 
-import { Header } from 'components/theme';
+import PageHeader from 'components/page/page-title';
+import Services from 'components/services/services';
+import SameDayACH from 'components/services/details/same-day-ach';
 
 export default () => (
   <Layout>
     <SEO />
-    <Header variant="dark"/>
+    <PageHeader title="" />
+    <Container>
+      <SameDayACH/>
+    </Container>
+    <Services currentPage="Same day ACH"/>
   </Layout>
 );

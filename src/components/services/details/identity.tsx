@@ -9,7 +9,6 @@ const Identity = () => {
   return (
     <Wrapper id="details">
       <Title>
-        {/* <img src={Id} alt="identity" /> */}
         <h1>Identity</h1>
       </Title>
       <p>

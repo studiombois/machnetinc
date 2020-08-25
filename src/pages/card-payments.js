@@ -1,12 +1,18 @@
 import React from 'react';
 
-import { Layout, SEO } from '@ui';
+import { Layout, SEO, Container } from '@ui';
 
-import { Header } from 'components/theme';
+import PageHeader from 'components/page/page-title';
+import Services from 'components/services/services';
+import CardPayments from 'components/services/details/card-payments';
 
 export default () => (
   <Layout>
     <SEO />
-    <Header variant="dark"/>
+    <PageHeader title="" />
+    <Container>
+      <CardPayments/>
+    </Container>
+    <Services currentPage="Card Payments"/>
   </Layout>
 );
