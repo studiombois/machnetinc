@@ -1,8 +1,15 @@
 import styled from 'styled-components';
 
+import Prism from 'assets/img/prism.svg';
+
 export const Wrapper = styled.div`
   padding: 3rem 0;
 
+  /* background by SVGBackgrounds.com */
+  background-image: ${({background}) => background? `url(${Prism})` : ''};
+  background-attachment: fixed;
+  background-size: cover;
+  
   @media (max-width: 750px) {
     margin: 0;
     padding: 3rem 0 0 0;

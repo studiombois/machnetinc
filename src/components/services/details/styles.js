@@ -160,6 +160,19 @@ export const CardNetwork = styled.div`
   }
 `;
 
+export const Thumbnail = styled.div`
+  padding: 40px 0;
+  max-width: 400px;
+  border-radius: 3px;
+  margin: 0px 0 20px 0;
+
+  img {
+    width: 140px;
+    display: block;
+    margin: auto;
+  }
+`;
+
 export const RiskAndFraudThumbnail = styled.img`
   padding: 0 100px;
 

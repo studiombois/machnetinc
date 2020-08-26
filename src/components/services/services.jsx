@@ -92,7 +92,7 @@ const FeaturesSection = ({ currentPage }) => {
 }
 
 const Services = ({ currentPage = '' }) => (
-  <Wrapper id="services">
+  <Wrapper background={currentPage !== '' ? true : false} id="services">
     <FeaturesHeader as={Container}>
       <p
         data-aos-delay="10"
