@@ -34,7 +34,7 @@ const SameDayACH = () => {
         <Column>
           <Box
             style={{
-              width: '400px',
+              maxWidth: '400px',
               marginTop: '0',
               boxShadow: '0px 4px 10px #18181873',
             }}

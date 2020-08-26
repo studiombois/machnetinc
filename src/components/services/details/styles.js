@@ -39,12 +39,21 @@ export const Column = styled.div`
   font-size: 15px;
   color: #484848 !important;;
 
-	&:last-child {
-		padding-right: unset;
+  @media (max-width: 372px) {
+    padding: 0;
+    min-width: 100%;
   }
   
   &:first-child {
-		padding-left: unset;
+    padding-left: unset;
+  }
+
+	&:last-child {
+    padding-right: unset;
+
+    @media (max-width: 372px) {
+      margin-top: 30px;
+    }
   }
   
   h1 {
