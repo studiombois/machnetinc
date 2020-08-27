@@ -9,7 +9,7 @@ import SameDayACH from 'components/services/details/same-day-ach';
 export default () => (
   <Layout>
     <SEO />
-    <PageHeader title="" />
+    <PageHeader  />
     <Container>
       <SameDayACH/>
     </Container>

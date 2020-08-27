@@ -128,7 +128,7 @@ export default () => (
               name="companyType"
               error={touched.companyType && errors.companyType}
             >
-              <option>About your company</option>
+              <option value="">Select One:</option>
               <option value="Money Service Business in the US">Money Service Business in the US</option>
               <option value="Money Transfer Operator outside the US">Money Transfer Operator outside the US</option>
               <option value="Diaspora Serving Business">Diaspora Serving Business</option>

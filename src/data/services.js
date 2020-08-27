@@ -15,14 +15,14 @@ export const services = [
   {
     id: 1,
     title: "Identity",
-    description: "Multi-layered process to access thousands of data sources containing billions of public records to instantly validate an identity while...",
+    description: "Multi-layered process to access thousands of data sources containing billions of public records to instantly validate an identity while also providing predictive, intelligent information around that identity.",
     icon: Identity,
     path:'/identity',
   },
   {
     id: 2,
     title: "Instant account verification",
-    description: "Instantly authenticate bank accounts. Protect against overdraft and NSF fees by having visibility into...",
+    description: "Instantly authenticate bank accounts. Protect against overdraft and NSF fees by having visibility into available funds. Retrieve transaction data, including enhanced geolocation, merchant, and category information.",
     icon: Bank,
     path:'/instant-account-verification',
   },
@@ -36,7 +36,7 @@ export const services = [
   {
     id:4,
     title: "Card Payments",
-    description: "Receive Payments from any debit or credit card. Know card type and fee prior to payment. Disburse to any US Visa/MasterCard...",
+    description: "Receive Payments from any debit or credit card. Know card type and fee prior to payment. Disburse to any US Visa/MasterCard/Discover instantly. Verify card account ownership in real-time. PCI Security Standards.",
     icon: Card,
     path:'/card-payments',
   },
@@ -50,21 +50,21 @@ export const services = [
   {
     id:6,
     title: "Built-in-compliance",
-    description:"Sanction List checks, including requirements for Customer Identification Programs (CIP) and Office of Foreign Assets...",
+    description:"Sanction List checks, including requirements for Customer Identification Programs (CIP) and Office of Foreign Assets Controls (OFAC).",
     icon: Compliance,
     path:'/build-in-compliance',
   },
   {
     id:7,
     title: "Security",
-    description:"End-to-end encryption, PCI compliant card processing, transaction monitoring, built in risk assessment & fraud detection applications.",
+    description:"Ene-to-end encryption, PCI compliant card processing, transaction monitoring, built in risk assessment & fraud detection applications.",
     icon: Security,
     path:'/security',
   },
   {
     id:8,
     title: "Global settlement & Payout",
-    description:"Single API for real‑time Cross‑border Payments in more than 100 countries. Send payment instantly in local...",
+    description:"Single API for real‑time Cross‑border Payments in more than 100 countries. Send payment instantly in local currency. Funds received directly into a mobile wallet, bank account or via cash-pickup.",
     icon: GlobalSettlement,
     path:'/global-settlement-and-payout',
   }

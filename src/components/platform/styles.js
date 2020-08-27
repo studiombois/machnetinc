@@ -47,8 +47,8 @@ export const Intro = styled.div `
     color: #fff;
     font-weight: 100;
     font-size: 2.4rem;
-    margin: 7rem 0 0.25rem 0;
-    
+    margin: 7rem 0 1.45rem 0;
+
     @media (max-width: 960px) {
       mix-blend-mode: unset;
     }
@@ -60,7 +60,7 @@ export const Intro = styled.div `
 
   p {
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin-button:0.25rem;
 
     @media (max-width: 960px) {
@@ -88,7 +88,7 @@ export const Tab = styled.img `
   display: block;
   position: relative;
   border-radius: 15px;
-  margin: 100px 0 0 60px;
+  margin: 100px 0 0 80px;
   border: 15px solid #272728;
   box-shadow: 1px 14px 32px #000000d1;
 `;
@@ -99,30 +99,26 @@ export const Mobile = styled.img `
   position: relative;
   border-radius: 28px;
   top: 0;
-  right: 0px;
+  right: 30px;
   position: absolute;
   box-shadow: 1px 20px 32px #00000069;
 `;
 
 export const LearnMore = styled.button `  
-  padding: 6px 18px;
-	width: fit-content;
-	background: transparent;
-	border-radius: 16px;
-	cursor: pointer;
+  padding: 5px 0;
+  width: fit-content;
+  background: transparent;
+  cursor: pointer;
   color: #fff !important;
-  border: 1px solid #fff;
-  display: flex;
-  margin: 3rem 0;
+  display: block;
+  display: inline-flex;
+  align-items: center;
 
-	&:hover {
-		color: #3573b9 !important;
-		background: #fff;
+  &:hover {
+    color: #f3f3f3 !important;
   }
-  
+
   img {
-    margin: 0;
-    width: 22px;
     padding-left: 5px;
   }
 `;

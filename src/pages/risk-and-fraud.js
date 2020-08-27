@@ -9,7 +9,7 @@ import RiskAndFraud from 'components/services/details/risk-and-fraud';
 export default () => (
   <Layout>
     <SEO />
-    <PageHeader title="" />
+    <PageHeader  />
     <Container>
       <RiskAndFraud/>
     </Container>

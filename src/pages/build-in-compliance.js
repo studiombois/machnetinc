@@ -9,7 +9,7 @@ import BuiltInCompliance from 'components/services/details/built-in-compliance';
 export default () => (
   <Layout>
     <SEO />
-    <PageHeader title="" />
+    <PageHeader  />
     <Container>
       <BuiltInCompliance/>
     </Container>

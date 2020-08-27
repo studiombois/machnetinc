@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import Prism from 'assets/img/prism.svg';
 
 export const Wrapper = styled.div`
-  padding: 3rem 0;
+  padding: ${({background}) => background? '6rem' : '3rem'} 0;
+  margin-top: 3rem;
 
   /* background by SVGBackgrounds.com */
   background-image: ${({background}) => background? `url(${Prism})` : ''};
@@ -112,31 +113,53 @@ export const Features = styled.div`
 `;
 
 export const Feature = styled.div`
-  height: 100%;
+  width: 23%;
   padding: 20px 15px;
+  background: #fdfdfd;
   margin: 10px 10px 25px 10px;
-  box-shadow: 0px 4px 10px #0000001c;
+  box-shadow: 0 15px 25px #00000017;
+`;
+
+export const Contents = styled.div`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  @media (max-width: 750px) {
+    width: 100%;
+  }
 
   h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: left;
     margin-bottom: 10px;
     color: #3673b9;
   }
 
   p {
-    color: #484848;
+    color: #5e626b;
     font-size: 15px;
     text-align: left;
     margin-bottom: 10px;
+    flex-grow: 1;
   }
 
   a {
-    display: block;
+    color: #5c5e63;
+    display: flex;
     font-size: 15px;
     margin-top: 20px;
+    text-decoration: underline;
+
+    &:hover {
+      color: #7c7c7c;
+    }
+
+    img {
+      width: 18px;
+      margin-left: 5px;
+    }
   }
-}
 `;
 
 export const ReadMore = styled.div`
@@ -151,8 +174,8 @@ export const ReadMore = styled.div`
 `;
 
 export const Icon = styled.div`
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin-bottom: 20px;
 
   img {

@@ -59,6 +59,9 @@ export const Details = styled.div`
 export const Point = styled.div`
   display: flex;
   cursor: pointer;
+  // border: 1px solid #000;
+  padding: 10px;
+  // margin-bottom: 20px;
 
   img {
     width: 40px;
@@ -71,6 +74,7 @@ export const Point = styled.div`
     display: inline-block;
     font-size: 1.125rem;
     color: #02446b;
+    margin: 0;
      
     &:hover {
       color: #15699c;

@@ -9,7 +9,7 @@ import Security from 'components/services/details/security';
 export default () => (
   <Layout>
     <SEO />
-    <PageHeader title="" />
+    <PageHeader  />
     <Container>
       <Security/>
     </Container>

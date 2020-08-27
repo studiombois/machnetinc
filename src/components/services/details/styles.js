@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     min-width: 100%;
     padding: 1rem 0;
     font-size: 15px !important;
-    color: #484848 !important;
+    color: #5e626b !important;
   }
 `;
 
@@ -37,7 +37,8 @@ export const Column = styled.div`
   flex: 1;
   padding: 25px;
   font-size: 15px;
-  color: #484848 !important;;
+  line-height: 25px;
+  color: #5e626b !important;;
 
   @media (max-width: 372px) {
     padding: 0;
@@ -136,7 +137,7 @@ export const Box = styled.div`
 export const BoxFooter = styled.div`
   color: #fff;
   display: flex;
-  margin-top: 7rem;
+  margin-top: 8rem;
 
   img {
     width: 30px;

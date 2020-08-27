@@ -9,7 +9,7 @@ import GlobalSettlementAndPayout from 'components/services/details/global-settle
 export default () => (
   <Layout>
     <SEO />
-    <PageHeader title="" />
+    <PageHeader  />
     <Container>
       <GlobalSettlementAndPayout/>
     </Container>

@@ -1,9 +1,6 @@
 import React from 'react';
 
-import { Container } from '@ui';
 import { Wrapper, Title, Content, Column } from './styles';
-
-import Id from 'assets/icons/identity.svg';
 
 const Identity = () => {
   return (

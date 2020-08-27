@@ -57,7 +57,7 @@ export const Details = styled.div`
   }
 
   p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 100;
     margin-button: 0.25rem;
     color: #fff;

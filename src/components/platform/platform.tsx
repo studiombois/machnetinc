@@ -28,14 +28,15 @@ const Platform = () => {
         <Header variant="light" />
         <IntroWrapper as={Container}>
           <Intro as={Container}>
-            <h1>Our Platform</h1>
+            <h1>Hyper integrated API platform</h1>
             <p>
-              Hyper integrated API to address your <u>domestic</u> and{' '}
-              <u>cross-border</u> payment requirements.
+              Regulatory compliant API for user onboarding, sending/receiving
+              payments between US domestic and international users with our
+              programmable payments platform.
             </p>
             <LearnMore as={AnchorLink} href="#services">
               Learn More
-            <img src={ArrowDown} width="22" alt="learn more" />
+              <img src={ArrowDown} width="22" alt="learn more" />
             </LearnMore>
           </Intro>
           <Thumbnail>

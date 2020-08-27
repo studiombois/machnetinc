@@ -20,7 +20,7 @@ export const Footer = () => (
           © {new Date().getFullYear()} Machnet Inc.
         </Copyright>
         <Links >
-          <Link to="/">Terms of Use</Link>|
+          <Link to="/terms-of-service">Terms of Service</Link>|
             <Link to="/">Privacy Policy</Link>
         </Links>
         <Links style={{ marginLeft: '5px', marginTop: '-2px' }}>

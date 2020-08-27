@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 `;
 
 export const Background = styled.div`
