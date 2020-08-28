@@ -91,6 +91,14 @@ export const Tab = styled.img `
   margin: 100px 0 0 80px;
   border: 15px solid #272728;
   box-shadow: 1px 14px 32px #000000d1;
+
+  @media (max-width: 955px) {
+    margin: 100px 0 0 120px;
+  }
+
+  @media (max-width: 420px) {
+    margin: 160px 0 0 0px;
+  }
 `;
 
 export const Mobile = styled.img `
@@ -102,6 +110,10 @@ export const Mobile = styled.img `
   right: 30px;
   position: absolute;
   box-shadow: 1px 20px 32px #00000069;
+
+  @media (max-width: 955px) {
+    // right: 200px
+  }
 `;
 
 export const LearnMore = styled.button `  

@@ -108,26 +108,35 @@ export const FeaturesHeader = styled.div`
 
 export const Features = styled.div`
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 `;
 
 export const Feature = styled.div`
-  width: 23%;
+  width: 100%;;
   padding: 20px 15px;
   background: #fdfdfd;
   margin: 10px 10px 25px 10px;
   box-shadow: 0 15px 25px #00000017;
+    
+  @media (min-width: 48rem) {
+    width: 47%;
+  }
+    
+  @media (min-width: 62rem) {
+    width: 23%;
+  }
+    
+  &:before {
+    content: "";
+    float: left;
+    padding-top: 100%;
+  }
 `;
 
 export const Contents = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  
-  @media (max-width: 750px) {
-    width: 100%;
-  }
 
   h1 {
     font-size: 1.2rem;
