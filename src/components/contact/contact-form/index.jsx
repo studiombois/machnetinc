@@ -21,49 +21,89 @@ export default () => (
       companyWebsite: '',
       success: false,
     }}
-
     validationSchema={Yup.object().shape({
-      name: Yup.string().required('Full name is required'),
-      phone: Yup.string().required('Phone number is required'),
+      name: Yup.string()
+        .min(3, 'Full name must be at least 3 characters')
+        .max(20, 'Full name must be at most 20 characters')
+        .required('Full name is required'),
+      phone: Yup.string()
+        .min(6, 'Invalid phone number')
+        .max(10, 'Invalid phone number')
+        .required('Phone number is required'),
       companyType: Yup.string().required('This field is required'),
+      companyName: Yup.string()
+        .min(3, 'Company name must be at least 3 characters')
+        .max(20, 'Company name must be at most 20 characters')
+        .required('Company name is required'),
+      companyWebsite: Yup.string()
+        .url('Invalid url')
+        .required('Website url is required'),
       email: Yup.string()
         .email('Invalid email')
         .required('Email field is required'),
-      message: Yup.string().required('Message field is required'),
+      message: Yup.string()
+        .max(300)
+        .required('Message field is required'),
       recaptcha: Yup.string().required('Robots are not welcome yet!'),
     })}
+    onSubmit={async (
+      {
+        name,
+        email,
+        phone,
+        message,
+        linkedin,
+        companyType,
+        companyName,
+        companyWebsite,
+      },
+      { setSubmitting, resetForm, setFieldValue }
+    ) => {
+      const ticket = {
+        name: name,
+        phone: phone,
+        description: message,
+        type: 'Question',
+        subject: 'Website Enquiry for ' + companyType,
+        email: email,
+        priority: 1,
+        status: 2,
+        tags: ['Website Lead', 'Prospect'],
+        custom_fields: {
+          cf_company: companyName,
+          cf_website: companyWebsite,
+          cf_linkedin: linkedin,
+        },
+      };
 
-    onSubmit={async ({ name, email, message }, { setSubmitting, resetForm, setFieldValue }) => {
       try {
         await axios({
           method: 'POST',
-          url: `${process.env.GATSBY_PORTFOLIO_FORMIK_ENDPOINT}`,
+          url: `${process.env.FRESHDESK_URL}`,
           headers: {
             'Content-Type': 'application/json',
+            Authorization:
+              'Basic ' + btoa(process.env.FRESHDESK_API_KEY + ':x'),
           },
-          data: JSON.stringify({
-            name,
-            email,
-            phone,
-            message,
-            linkedin,
-            companyType,
-            companyName,
-            companyWebsite,
-          }),
-        });
+          data: JSON.stringify(ticket),
+        })
+          .then(() => {
+            setFieldValue('success', true);
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+
         setSubmitting(false);
-        setFieldValue('success', true);
         setTimeout(() => resetForm(), 6000);
       } catch (err) {
         setSubmitting(false);
         setFieldValue('success', false);
-        alert('Something went wrong, please try again!') // eslint-disable-line
       }
     }}
   >
     {({ values, touched, errors, setFieldValue, isSubmitting }) => (
-      <Form style={{ margin: "0 -1rem 0 -1rem" }}>
+      <Form style={{ margin: '0 -1rem 0 -1rem' }}>
         <InputField>
           <Input
             as={FastField}
@@ -109,14 +149,16 @@ export default () => (
         <Row>
           <InputField>
             <Input
-              id="company"
-              aria-label="company"
+              id="companyName"
+              aria-label="companyName"
               component="input"
               as={FastField}
               type="text"
-              name="company"
-              placeholder="Company Name"
+              name="companyName"
+              placeholder="Company Name*"
+              error={touched.companyName && errors.companyName}
             />
+            <ErrorMessage component={Error} name="companyName" />
           </InputField>
           <InputField>
             <Input
@@ -129,9 +171,15 @@ export default () => (
               error={touched.companyType && errors.companyType}
             >
               <option value="">Select One:</option>
-              <option value="Money Service Business in the US">Money Service Business in the US</option>
-              <option value="Money Transfer Operator outside the US">Money Transfer Operator outside the US</option>
-              <option value="Diaspora Serving Business">Diaspora Serving Business</option>
+              <option value="Money Service Business in the US">
+                Money Service Business in the US
+              </option>
+              <option value="Money Transfer Operator outside the US">
+                Money Transfer Operator outside the US
+              </option>
+              <option value="Diaspora Serving Business">
+                Diaspora Serving Business
+              </option>
               <option value="Fintech and Others">Fintech and Others</option>
             </Input>
             <ErrorMessage component={Error} name="companyType" />
@@ -141,14 +189,16 @@ export default () => (
         <Row>
           <InputField>
             <Input
-              id="website"
-              aria-label="website"
+              id="companyWebsite"
+              aria-label="companyWebsite"
               component="input"
               as={FastField}
-              type="text"
-              name="website"
-              placeholder="Website"
+              type="url"
+              name="companyWebsite"
+              placeholder="Website*"
+              error={touched.companyWebsite && errors.companyWebsite}
             />
+            <ErrorMessage component={Error} name="companyWebsite" />
           </InputField>
           <InputField>
             <Input
@@ -182,9 +232,9 @@ export default () => (
           <InputField>
             <FastField
               component={Recaptcha}
-              sitekey={process.env.GATSBY_PORTFOLIO_RECAPTCHA_KEY}
+              sitekey={process.env.RECAPTCHA_KEY}
               name="recaptcha"
-              onChange={value => setFieldValue('recaptcha', value)}
+              onChange={(value) => setFieldValue('recaptcha', value)}
             />
             <ErrorMessage component={Error} name="recaptcha" />
           </InputField>
@@ -193,7 +243,10 @@ export default () => (
         {values.success && (
           <InputField>
             <Center>
-              <h4>Your message has been successfully sent, I will get back to you ASAP!</h4>
+              <h4>
+                Your message has been successfully sent, We will get back to you
+                ASAP!
+              </h4>
             </Center>
           </InputField>
         )}

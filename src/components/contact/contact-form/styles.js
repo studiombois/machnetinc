@@ -10,6 +10,7 @@ export const Center = styled.div`
 
   h4 {
     font-weight: normal;
+    color: #5ab543;
   }
 `;
 

@@ -21,7 +21,7 @@ export const Footer = () => (
         </Copyright>
         <Links >
           <Link to="/terms-of-service">Terms of Service</Link>|
-            <Link to="/">Privacy Policy</Link>
+            <Link to="/privacy-policy">Privacy Policy</Link>
         </Links>
         <Links style={{ marginLeft: '5px', marginTop: '-2px' }}>
           {social.map(({ id, name, link, icon }) => (
