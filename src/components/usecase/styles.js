@@ -59,9 +59,10 @@ export const Details = styled.div`
 export const Point = styled.div`
   display: flex;
   cursor: pointer;
-  // border: 1px solid #000;
   padding: 10px;
-  // margin-bottom: 20px;
+  margin-bottom: 10px;
+  border: ${({isActive}) => isActive && '1px solid #b7d2e4'};
+  background:${({isActive}) => isActive?'#e2ebf0':'transparent'};
 
   img {
     width: 40px;

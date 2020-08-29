@@ -2,11 +2,17 @@ import React, { useState } from 'react';
 
 import { Container } from '@ui';
 import { usecases } from 'data/services';
-import { Wrapper, Thumbnail, Description, ApiPlatform, Point, Details } from './styles';
+import {
+  Wrapper,
+  Thumbnail,
+  Description,
+  ApiPlatform,
+  Point,
+  Details,
+} from './styles';
 
 export const Usecase = () => {
-  const [api, setApi] = useState(usecases[0].api);
-  const [height, setHeight] = useState(usecases[0].height);
+  const [activeUsecase, setActiveUsecase] = useState(usecases[0].title);
 
   return (
     <Wrapper id="usecase">
@@ -14,30 +20,43 @@ export const Usecase = () => {
         <Description>
           <Details>
             <h1>For Developers!</h1>
-            {
-              usecases.map((usecase, key) => (
-                <Point
-                  data-aos-delay="10"
-                  data-aos="slide-up"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease-in-out-cubic" key={key} onClick={() => { setApi(usecase.api), setHeight(usecase.height) }}>
-                  <img src={usecase.icon} alt={usecase.title} />
-                  <p>{usecase.title}
-                    <small>{usecase.description}</small>
-                  </p>
-                </Point>
-              ))
-            }
+            {usecases.map((usecase, key) => (
+              <Point
+                key={key}
+                isActive={usecase.title === activeUsecase}
+                onClick={() => setActiveUsecase(usecase.title)}
+              >
+                <img src={usecase.icon} alt={usecase.title} />
+                <p>
+                  {usecase.title}
+                  <small>{usecase.description}</small>
+                </p>
+              </Point>
+            ))}
           </Details>
         </Description>
         <Thumbnail>
-          <iframe
-            src={api}
-            style={{ width: "597px", height: `${height}`, border: "0", transform: "scale(1)", overflow: "hidden" }}
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
+          {usecases.map((usecase, key) => (
+            <iframe
+              key={key}
+              src={usecase.api}
+              sandbox="allow-scripts allow-same-origin"
+              style={getIframeStyle(usecase, activeUsecase)}
+            ></iframe>
+          ))}
         </Thumbnail>
       </ApiPlatform>
     </Wrapper>
   );
+};
+
+const getIframeStyle = (usecase, activeUsecase) => {
+  return {
+    border: '0',
+    margin: '0',
+    width: '597px',
+    overflow: 'hidden',
+    height: `${usecase.title === activeUsecase ? '517px' : '0'}`,
+    visibility: `${usecase.title === activeUsecase ? 'visible' : 'hidden'}`,
+  };
 };
