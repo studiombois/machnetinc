@@ -37,6 +37,7 @@ export const Column = styled.div`
   flex: 1;
   padding: 25px;
   font-size: 15px;
+  margin-top: 20px;
   line-height: 25px;
   color: #5e626b !important;;
 
