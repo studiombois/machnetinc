@@ -40,7 +40,7 @@ export const Column = styled.div`
   line-height: 25px;
   color: #5e626b !important;;
 
-  @media (max-width: 372px) {
+  @media (max-width: 420px) {
     padding: 0;
     min-width: 100%;
   }
