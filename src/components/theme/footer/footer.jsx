@@ -9,6 +9,7 @@ import {
   TopFooter,
   RightMenu,
   Copyright,
+  BottomFooter
 } from './styles';
 
 import social from 'data/social.json';
@@ -21,29 +22,38 @@ export const Footer = () => (
         <Link to="/">
           <img src={Logo} alt="logo" />
         </Link>
-        <p>Unified API for US domestic and cross border payments</p>
+        <p>Unified API for US domestic and cross border payments<br />
+          Regulatory Compliance Program • ACH & Cards Payments • Global Payouts</p>
+        {social.map(({ id, name, link, icon }) => (
+          <a
+            key={id}
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`follow me on ${name}`}
+          >
+            <img style={{ margin: '10px 0 0 0', width: '24px' }} src={icon} alt={name} />{' '}
+          </a>
+        ))}
       </Brand>
       <RightMenu>
-        <Copyright>© {new Date().getFullYear()} Machnet Inc.</Copyright>
         <Links>
-          <Link to="/terms-of-service">Terms of Service</Link>|
-          <Link to="/privacy-policy">Privacy Policy</Link>
-        </Links>
-        <Links style={{ marginLeft: '5px', marginTop: '-2px' }}>
-          {social.map(({ id, name, link, icon }) => (
-            <a
-              key={id}
-              style={{ margin: '0' }}
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`follow me on ${name}`}
-            >
-              <img width="24" src={icon} alt={name} />
-            </a>
-          ))}
+          <Link style={{ fontSize: 'unset' }} to="/">Home</Link>
+          <Link style={{ fontSize: 'unset' }} to="/platform">Platform</Link>
+          <Link style={{ fontSize: 'unset' }} to="#contact">Pricing</Link>
+          <Link style={{ fontSize: 'unset' }} to="/about-us">About Us</Link>
         </Links>
       </RightMenu>
     </TopFooter>
+    <Container>
+      <hr style={{ marginBottom: '10px' }} />
+    </Container>
+    <BottomFooter as={Container}>
+      <Copyright>© {new Date().getFullYear()} All Rights Reserved</Copyright>
+      <Links>
+        <Link to="/terms-of-service">Terms of Service</Link>
+        <Link to="/privacy-policy">Privacy Policy</Link>
+      </Links>
+    </BottomFooter>
   </Wrapper>
 );

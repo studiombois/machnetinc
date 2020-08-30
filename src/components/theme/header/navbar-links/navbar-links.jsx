@@ -8,7 +8,7 @@ const NavbarLinks = ({ desktop, variant }) => (
   <Wrapper variant={variant} desktop={desktop}>
     <Link to="/platform">Platform</Link>
     <Link to="#contact">Pricing</Link>
-    <AnchorLink href="#about">About</AnchorLink>
+    <AnchorLink href="#about">About Us</AnchorLink>
   </Wrapper>
 )
 
