@@ -17,7 +17,7 @@ import {
 } from './styles';
 
 import TabView from 'assets/img/tab.svg';
-import MobileView from 'assets/img/mobile.gif';
+import MobileView from 'assets/img/mobile-2.gif';
 import Wave from 'assets/illustrations/wave.svg';
 import ArrowDown from 'assets/icons/arrow-down-outline.svg';
 
