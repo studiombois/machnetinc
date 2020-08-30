@@ -19,7 +19,7 @@ export const Footer = () => (
   <Wrapper>
     <TopFooter as={Container}>
       <Brand>
-        <Link to="/">
+        <Link to="/" style={{ display: "block", marginBottom: '8px' }}>
           <img src={Logo} alt="logo" />
         </Link>
         <p>Unified API for US domestic and cross border payments<br />
