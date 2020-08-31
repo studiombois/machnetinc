@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div `
   background: #3597d4;
   padding: 2rem 0;
 
@@ -13,10 +13,11 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const TopFooter = styled.div`
+export const TopFooter = styled.div `
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 30px !important;
   justify-content: space-between;
 
   @media (max-width: 750px) {
@@ -24,11 +25,12 @@ export const TopFooter = styled.div`
   }
 `;
 
-export const Brand = styled.div`
+export const Brand = styled.div `
   p {
     margin: 0;
     color: #fff;
     font-size: small;
+    line-height: 20px;
   }
 
   @media (max-width: 750px) {
@@ -37,7 +39,7 @@ export const Brand = styled.div`
   }
 `;
 
-export const RightMenu = styled.div`
+export const RightMenu = styled.div `
   display: flex;
 
   @media (max-width: 750px){
@@ -46,35 +48,37 @@ export const RightMenu = styled.div`
 	}
 `;
 
-export const Links = styled.div`
+export const Links = styled.div `
   color: #fff;
-  text-align: right;
+  text-align: left;
   font-size: ${({varient}) => varient};
-  
+
   @media (max-width: 750px) {
-    text-align: center;
-    display: flex;
-    justify-content: center;
     margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
   }
   
   a {
-    color: #9cfffe;
+    color: #fff;
     margin: 0 0.5rem;
-    font-weight: bold;
+    font-size: small;
 
     &:hover {
       color: #8aeff1;
     }
 
-    @media (max-width: 680px) {
+    @media (max-width: 750px) {
       display: block;
-      padding: 3px;
+      padding: 5px;
     }
   }
 `;
 
-export const BottomFooter = styled.div`
+export const BottomFooter = styled.div `
   display: flex;
   flex-wrap: wrap;
   text-align: left;
@@ -86,10 +90,8 @@ export const BottomFooter = styled.div`
   }
 `;
 
-export const Copyright = styled.div`
+export const Copyright = styled.div `
   color: #fff;
-
-  @media (max-width: 750px) {
-    margin-top: 20px;
-  }
+  margin-top: 5px;
+  font-size: small;
 `;
