@@ -79,11 +79,11 @@ export default () => (
       try {
         await axios({
           method: 'POST',
-          url: `${process.env.FRESHDESK_URL}`,
+          url: `${process.env.GATSBY_FRESHDESK_URL}`,
           headers: {
             'Content-Type': 'application/json',
             Authorization:
-              'Basic ' + btoa(process.env.FRESHDESK_API_KEY + ':x'),
+              'Basic ' + btoa(process.env.GATSBY_FRESHDESK_API_KEY + ':x'),
           },
           data: JSON.stringify(ticket),
         })
@@ -232,7 +232,7 @@ export default () => (
           <InputField>
             <FastField
               component={Recaptcha}
-              sitekey={process.env.RECAPTCHA_KEY}
+              sitekey={process.env.GATSBY_RECAPTCHA_KEY}
               name="recaptcha"
               onChange={(value) => setFieldValue('recaptcha', value)}
             />
