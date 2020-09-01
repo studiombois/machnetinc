@@ -277,6 +277,7 @@ const PrivacyPolicy = styled.div`
     li {
       font-weight: bold;
       margin-top: 40px;
+      line-height: 25px;
 
       &:last-child {
         margin-bottom: 80px;
@@ -284,12 +285,19 @@ const PrivacyPolicy = styled.div`
 
       p {
         font-weight: normal;
+        line-height: 25px;
       }
 
       ol {
         li {
           font-weight: normal;
           margin-top: 0;
+          line-height: 25px;
+
+          p {
+            font-weight: normal;
+            line-height: 25px;
+          }
 
           &:last-child {
             margin-bottom: 0;

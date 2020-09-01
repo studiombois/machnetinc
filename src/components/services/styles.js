@@ -18,9 +18,8 @@ export const Wrapper = styled.div`
 
   h1 {
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    width: 65%;
     margin-bottom: 0;
 
     span {
@@ -84,9 +83,8 @@ export const FeaturesHeader = styled.div`
 
   h1 {
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    width: 65%;
     margin-bottom: 2.2rem;
 
     span {
