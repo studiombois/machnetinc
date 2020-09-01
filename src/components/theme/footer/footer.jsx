@@ -9,7 +9,7 @@ import {
   TopFooter,
   RightMenu,
   Copyright,
-  BottomFooter
+  BottomFooter,
 } from './styles';
 
 import social from 'data/social.json';
@@ -19,11 +19,10 @@ export const Footer = () => (
   <Wrapper>
     <TopFooter as={Container}>
       <Brand>
-        <Link to="/" style={{ display: "block", marginBottom: '8px' }}>
+        <Link to="/" style={{ display: 'block', marginBottom: '8px' }}>
           <img src={Logo} alt="logo" />
         </Link>
-        <p>Unified API for US domestic and cross border payments<br />
-          Regulatory Compliance Program • ACH & Cards Payments • Global Payouts</p>
+        <p>1765 Scott Blvd Suite 210, Santa Clara, CA 95050 USA</p>
         {social.map(({ id, name, link, icon }) => (
           <a
             key={id}
@@ -32,16 +31,28 @@ export const Footer = () => (
             rel="noopener noreferrer"
             aria-label={`follow me on ${name}`}
           >
-            <img style={{ margin: '10px 0 0 0', width: '24px' }} src={icon} alt={name} />{' '}
+            <img
+              style={{ margin: '10px 0 0 0', width: '24px' }}
+              src={icon}
+              alt={name}
+            />{' '}
           </a>
         ))}
       </Brand>
       <RightMenu>
         <Links>
-          <Link style={{ fontSize: 'unset' }} to="/">Home</Link>
-          <Link style={{ fontSize: 'unset' }} to="/platform">Platform</Link>
-          <Link style={{ fontSize: 'unset' }} to="#contact">Pricing</Link>
-          <Link style={{ fontSize: 'unset' }} to="/about-us">About Us</Link>
+          <Link style={{ fontSize: 'unset' }} to="/">
+            Home
+          </Link>
+          <Link style={{ fontSize: 'unset' }} to="/platform">
+            Platform
+          </Link>
+          <Link style={{ fontSize: 'unset' }} to="#contact">
+            Pricing
+          </Link>
+          <Link style={{ fontSize: 'unset' }} to="/about-us">
+            About Us
+          </Link>
         </Links>
       </RightMenu>
     </TopFooter>
@@ -49,7 +60,10 @@ export const Footer = () => (
       <hr style={{ marginBottom: '10px' }} />
     </Container>
     <BottomFooter as={Container}>
-      <Copyright>© {new Date().getFullYear()} All Rights Reserved</Copyright>
+      <Copyright>
+        © Machnet Technologies Inc {new Date().getFullYear()}, All Rights
+        Reserved
+      </Copyright>
       <Links>
         <Link to="/terms-of-service">Terms of Service</Link>
         <Link to="/privacy-policy">Privacy Policy</Link>

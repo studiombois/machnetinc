@@ -19,7 +19,7 @@ export const Usecase = () => {
       <ApiPlatform as={Container}>
         <Description>
           <Details>
-            <h1>For Developers!</h1>
+            <h1>For Developers</h1>
             {usecases.map((usecase, key) => (
               <Point
                 key={key}

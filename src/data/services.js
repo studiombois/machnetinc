@@ -21,7 +21,7 @@ export const services = [
   },
   {
     id: 2,
-    title: "Instant account verification",
+    title: "Instant Account verification",
     description: "Instantly authenticate bank accounts. Protect against overdraft and NSF fees by having visibility into available funds. Retrieve transaction data, including enhanced geolocation, merchant, and category information.",
     icon: Bank,
     path:'/instant-account-verification',
@@ -35,21 +35,21 @@ export const services = [
   },
   {
     id:4,
-    title: "Card Payments",
-    description: "Receive Payments from any debit or credit card. Know card type and fee prior to payment. Disburse to any US Visa/MasterCard/Discover instantly. Verify card account ownership in real-time. PCI Security Standards.",
+    title: "Card payments",
+    description: "Receive payments from any debit or credit card. Know card type and fee prior to payment. Disburse to any US Visa/MasterCard/Discover instantly. Verify card account ownership in real-time. PCI Security Standards.",
     icon: Card,
     path:'/card-payments',
   },
   {
     id:5,
-    title:"Risk & fraud",
+    title:"Risk & Fraud",
     description: "Real-time risk assessment using personal, financial and behavioral signals from our platform and a global data network.",
     icon: Risk,
     path:'/risk-and-fraud',
   },
   {
     id:6,
-    title: "Built-in-compliance",
+    title: "Built-in compliance",
     description:"Sanction List checks, including requirements for Customer Identification Programs (CIP) and Office of Foreign Assets Controls (OFAC).",
     icon: Compliance,
     path:'/build-in-compliance',
@@ -57,14 +57,14 @@ export const services = [
   {
     id:7,
     title: "Security",
-    description:"Ene-to-end encryption, PCI compliant card processing, transaction monitoring, built in risk assessment & fraud detection applications.",
+    description:"End-to-end encryption, PCI compliant card processing, transaction monitoring, built in risk assessment & fraud detection applications.",
     icon: Security,
     path:'/security',
   },
   {
     id:8,
-    title: "Global settlement & Payout",
-    description:"Single API for real‑time Cross‑border Payments in more than 100 countries. Send payment instantly in local currency. Funds received directly into a mobile wallet, bank account or via cash-pickup.",
+    title: "Global Settlement & Payout",
+    description:"Single API for real‑time cross‑border payments in more than 100 countries. Send payment instantly in local currency. Funds received directly into a mobile wallet, bank account or via cash pickup.",
     icon: GlobalSettlement,
     path:'/global-settlement-and-payout',
   }

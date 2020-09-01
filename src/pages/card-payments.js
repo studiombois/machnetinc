@@ -20,7 +20,7 @@ export default () => (
     <Scroll as={AnchorLink} href="#services">
       <img src={DownArrow} alt="down-arrow" />
     </Scroll>
-    <Services currentPage="Card Payments" />
+    <Services currentPage="Card payments" />
   </Layout>
 );
 
@@ -28,8 +28,6 @@ const Scroll = styled.div`
   margin: auto;
   display: block;
   width: fit-content;
-  border-radius: 50%;
-  box-shadow: 0px 80px 100px #0000002e;
 
   img {
     width: 80px;
