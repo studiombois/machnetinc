@@ -76,7 +76,7 @@ export const keyPoints = {
   points:[
     {
       title:'Regulatory compliance program',
-      description: 'Built-in compliance to meet the US Federal and regulatory requirements',
+      description: 'Built-in compliance to meet the US Federal and State regulatory requirements',
       icon: Compliance
     },
     {

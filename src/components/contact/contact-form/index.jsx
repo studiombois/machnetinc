@@ -33,7 +33,7 @@ export default () => (
       companyType: Yup.string().required('This field is required'),
       companyName: Yup.string()
         .min(3, 'Company name must be at least 3 characters')
-        .max(20, 'Company name must be at most 20 characters')
+        .max(40, 'Company name must be at most 40 characters')
         .required('Company name is required'),
       companyWebsite: Yup.string()
         .url('Invalid url')
