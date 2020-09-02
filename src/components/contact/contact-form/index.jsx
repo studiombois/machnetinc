@@ -23,12 +23,12 @@ export default () => (
     }}
     validationSchema={Yup.object().shape({
       name: Yup.string()
-        .min(3, 'Full name must be at least 3 characters')
+        .matches(/^[a-zA-Z]{2,20}(?:\s[a-zA-Z]{2,20})+$/, "Invalid full name")
         .max(20, 'Full name must be at most 20 characters')
         .required('Full name is required'),
       phone: Yup.string()
-        .min(6, 'Invalid phone number')
-        .max(10, 'Invalid phone number')
+        .matches(/^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,'Invalid phone number')
+        .max(11, 'Invalid phone number')
         .required('Phone number is required'),
       companyType: Yup.string().required('This field is required'),
       companyName: Yup.string()
@@ -44,6 +44,9 @@ export default () => (
       message: Yup.string()
         .max(300)
         .required('Message field is required'),
+      linkedin: Yup.string()
+        .matches(/^((https?):\/\/)?(www.)?[a-z0-9]+(\.[a-z]{2,}){1,3}(#?\/?[a-zA-Z0-9#]+)*\/?(\?[a-zA-Z0-9-_]+=[a-zA-Z0-9-%]+&?)?$/, 'Invalid url')
+        .notRequired(),
       recaptcha: Yup.string().required('Robots are not welcome yet!'),
     })}
     onSubmit={async (
@@ -111,7 +114,7 @@ export default () => (
             name="name"
             component="input"
             aria-label="name"
-            placeholder="Full name*"
+            placeholder="Full Name*"
             error={touched.name && errors.name}
           />
           <ErrorMessage component={Error} name="name" />
@@ -193,7 +196,7 @@ export default () => (
               aria-label="companyWebsite"
               component="input"
               as={FastField}
-              type="url"
+              type="text"
               name="companyWebsite"
               placeholder="Website*"
               error={touched.companyWebsite && errors.companyWebsite}
@@ -210,6 +213,7 @@ export default () => (
               name="linkedin"
               placeholder="Linkedin url"
             />
+            <ErrorMessage component={Error} name="linkedin" />
           </InputField>
         </Row>
 

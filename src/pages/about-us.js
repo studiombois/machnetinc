@@ -26,7 +26,7 @@ export default () => (
           the necessary infrastructure. We wanted to democratize the domestic
           and cross-border payment industry by eliminating the requirement of
           large capital injection to start such service and compete with the
-          incumbents
+          incumbents.
         </p>
         <p>
           Utilizing our Single Unified API, businesses are able to facilitate
