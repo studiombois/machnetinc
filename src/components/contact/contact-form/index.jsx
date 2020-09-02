@@ -36,7 +36,7 @@ export default () => (
         .max(40, 'Company name must be at most 40 characters')
         .required('Company name is required'),
       companyWebsite: Yup.string()
-        .url('Invalid url')
+        .matches(/^((https?):\/\/)?(www.)?[a-z0-9]+(\.[a-z]{2,}){1,3}(#?\/?[a-zA-Z0-9#]+)*\/?(\?[a-zA-Z0-9-_]+=[a-zA-Z0-9-%]+&?)?$/,'Invalid url')
         .required('Website url is required'),
       email: Yup.string()
         .email('Invalid email')
