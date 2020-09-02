@@ -7,11 +7,12 @@ import {
   Wrapper,
   Content,
   BoxFooter,
-  BankNetwork,
+  Thumbnail,
 } from './styles';
 import { Container } from '@ui';
 
-import Bank from 'assets/img/bank-network.png';
+import D24Hours from 'assets/icons/24-hours.svg';
+import Instant from 'assets/icons/instant.svg';
 import ArrowLeft from 'assets/icons/arrow-forward.svg';
 
 const SameDayACH = () => {
@@ -23,29 +24,18 @@ const SameDayACH = () => {
 
       <Content>
         <Column>
-          <BankNetwork>
-            <img src={Bank} alt="bank" />
-          </BankNetwork>
+          <Thumbnail>
+            <img src={D24Hours} alt="bank" />
+          </Thumbnail>
           We provide the option for both same-day and next-day ACH payments, all
           types of ACH payments, including both credits and debits, will be
           eligible for same-day processing. Only international transactions
           (IATs) and high-value transactions above $25,000 will not be eligible.
         </Column>
         <Column>
-          <Box
-            style={{
-              maxWidth: '400px',
-              marginTop: '0',
-              boxShadow: '0px 4px 10px #18181873',
-            }}
-          >
-            <p>Recommended</p>
-            <h1>Instant</h1>
-            <BoxFooter>
-              Use your online login to connect your account
-              <img src={ArrowLeft} alt="arrow" />
-            </BoxFooter>
-          </Box>
+          <Thumbnail>
+            <img src={Instant} alt="bank" />
+          </Thumbnail>
           Real-time Account and routing number verification including balance
           check. We eliminate the old school cumbersome process of asking user’s
           to provide their account and routing number and the verification

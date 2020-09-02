@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Title, Column, Wrapper, Content, Thumbnail } from './styles';
 
-import PCI from 'assets/img/pci.png';
-import Encryption from 'assets/img/encryption.png';
+import CardSecurity from 'assets/icons/card-security.svg';
+import DataEncryption from 'assets/icons/data-encryption.svg';
 
 const Security = () => {
   return (
@@ -18,7 +18,7 @@ const Security = () => {
       <Content>
         <Column>
           <Thumbnail>
-            <img src={Encryption} alt="txn-bar" />
+            <img src={DataEncryption} alt="data encryption" />
           </Thumbnail>
           <h4>Encryption of data & communication</h4>
           All user and financial information are encrypted at rest with AES-256.
@@ -29,7 +29,7 @@ const Security = () => {
         </Column>
         <Column>
           <Thumbnail>
-            <img src={PCI} alt="screening" />
+            <img src={CardSecurity} alt="card security" />
           </Thumbnail>
           <h4>PCI compliant service</h4>
           Our Card service adhere to all of the PCI DSS data security

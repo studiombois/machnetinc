@@ -52,7 +52,7 @@ export const services = [
     title: "Built-in compliance",
     description:"Sanction List checks, including requirements for Customer Identification Programs (CIP) and Office of Foreign Assets Controls (OFAC).",
     icon: Compliance,
-    path:'/build-in-compliance',
+    path:'/built-in-compliance',
   },
   {
     id:7,

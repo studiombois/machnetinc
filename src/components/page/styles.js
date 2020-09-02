@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   margin-bottom: 7rem;
+
+  @media (max-width: 420px) {
+    margin-bottom: 3rem;
+  }
 `;
 
 export const Background = styled.div`

@@ -2,14 +2,14 @@ import React from 'react';
 
 import { Title, Column, Wrapper, Content, Thumbnail } from './styles';
 
-import TxnBar from 'assets/img/txn-bar.png';
-import Screening from 'assets/img/screening.png';
+import BarDiagram from 'assets/icons/bar-diagram.svg';
+import IdentityVerification from 'assets/icons/identity-verification.svg';
 
 const BuiltInCompliance = () => {
   return (
     <Wrapper id="details">
       <Title>
-        <h1>Built-in-compliance</h1>
+        <h1>Built-in compliance</h1>
       </Title>
       <p>
         Integrated Customer Identification Program to meet regulatory and
@@ -18,14 +18,14 @@ const BuiltInCompliance = () => {
       <Content>
         <Column>
           <Thumbnail>
-            <img src={TxnBar} alt="txn-bar" />
+            <img src={BarDiagram} alt="txn-bar" />
           </Thumbnail>
           Manage transaction limits and the KYC information required from the
           users based on the risk assessment and transaction size.
         </Column>
         <Column>
           <Thumbnail>
-            <img src={Screening} alt="screening" />
+            <img src={IdentityVerification} alt="screening" />
           </Thumbnail>
           OFAC and Global Watch Lists screening meet the compliance requirements
           through due diligence and strong user identity verification processes.

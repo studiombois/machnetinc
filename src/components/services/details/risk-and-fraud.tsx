@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Title, Wrapper, RiskAndFraudThumbnail } from './styles';
 
-import RiskFraud from 'assets/img/risk-fraud.png';
+import RiskFraud from 'assets/icons/risk-and-fraud.svg';
 
 const RiskAndFraud = () => {
   return (

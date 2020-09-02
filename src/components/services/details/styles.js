@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
 
    p {
     min-width: 100%;
-    padding: 1rem 0;
+    padding: 0;
     font-size: 15px !important;
     color: #5e626b !important;
   }
@@ -35,11 +35,10 @@ export const Content = styled.div`
 
 export const Column = styled.div`
   flex: 1;
-  padding: 25px;
+  padding: 0 25px;
   font-size: 15px;
-  margin-top: 20px;
   line-height: 25px;
-  color: #5e626b !important;;
+  color: #5e626b !important;
 
   @media (max-width: 420px) {
     padding: 0;
@@ -74,6 +73,7 @@ export const Column = styled.div`
 
   table {
     width: 80%;
+    height: 100%;
     color: #727272;
     padding: 8px 20px;
     margin-bottom: 30px; 
@@ -89,9 +89,11 @@ export const Column = styled.div`
 `;
 
 export const LinkYourBank = styled.div`
+  height: 100%;
   max-width: 80%;
   padding: 8px 20px;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
+  position: relative; 
   box-shadow: 0px 4px 10px #18181838;
 
   @media (max-width: 750px) {
@@ -99,7 +101,6 @@ export const LinkYourBank = styled.div`
   }
 
   p {
-    margin: 0;
     font-weight: bold;
     font-size: 15px;
   }
@@ -118,6 +119,9 @@ export const Box = styled.div`
   border-radius: 3px;
   margin: 0 0 20px 0;
   background-image: linear-gradient(to bottom right, #b0b0b0, #606060);
+  position: absolute;
+  bottom: 0;
+  left: 20px;
 
   p {
     padding: 0;
@@ -159,23 +163,18 @@ export const BankNetwork = styled.div`
 `;
 
 export const CardNetwork = styled.div`
-  padding: 40px 0;
-  max-width: 400px;
-  border-radius: 3px;
-  margin: 0px 0 20px 0;
-  box-shadow: 0px 4px 10px #18181847;
-
   img {
+    width: 80%;
     display: block;
-    margin: auto;
+    margin-left: 0;
   }
 `;
 
 export const Thumbnail = styled.div`
-  padding: 40px 0;
-  max-width: 400px;
+  padding: 0;
+  max-width: 50px;
   border-radius: 3px;
-  margin: 0px 0 20px 0;
+  margin: 20px 0 20px 0;
 
   img {
     width: 140px;
@@ -185,9 +184,12 @@ export const Thumbnail = styled.div`
 `;
 
 export const RiskAndFraudThumbnail = styled.img`
-  padding: 0 100px;
+  padding: 50px 0;
+  display: block;
+  margin: auto;
+  width: 700px;
 
   @media (max-width: 750px) {
-    padding: 0 20px; 
+    padding: 0; 
   }
 `;

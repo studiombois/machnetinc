@@ -75,7 +75,7 @@ const renderExampleTable = () => (
   </table>
 );
 
-const renderLinkYourBankIcon = () => (
+const renderLinkYourBank = () => (
   <LinkYourBank>
     <p>Link your bank</p>
     <Loader width="100%" />
@@ -105,13 +105,15 @@ const InstantAccountVerification = () => {
         information.
       </p>
       <Content>
+        <Column>{renderLinkYourBank()}</Column>
+        <Column>{renderExampleTable()}</Column>
+      </Content>
+      <Content style={{ marginTop: '30px' }}>
         <Column>
-          {renderLinkYourBankIcon()}
           Instantly authenticate bank accounts for payments for ACH transfers
           from any bank or credit union in the US.
         </Column>
         <Column>
-          {renderExampleTable()}
           Real-time balance check to protect against overdraft and NSF fees by
           having visibility into available funds before transfer (US and Canada)
         </Column>
