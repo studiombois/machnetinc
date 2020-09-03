@@ -19,11 +19,11 @@ const CardPayment = () => {
           </h3>
           <ul>
             <li>
-              We routes payments to the least cost network getting merchants low
+              We route payments to the least cost network getting merchants low
               interchange rates, specific to their business.
             </li>
             <li>
-              Regulated VISA and MASTER processing fee for about 0.50% + 50¢
+              Regulated VISA and MASTER processing fee for about 0.50% + 50¢.
             </li>
           </ul>
         </Column>

@@ -90,7 +90,7 @@ export default () => (
               similar security purposes, we collect and/or confirm certain
               identity-related information, financial background and similar
               information through third parties sources such as our service
-              providers, government agencies and consumer reporting agencies;
+              providers, government agencies and consumer reporting agencies.
             </li>
           </ol>
         </li>
