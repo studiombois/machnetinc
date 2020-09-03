@@ -19,7 +19,7 @@ export const WhatWeProvide = () => (
         data-aos="slide-up"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out-cubic"
-      >Integrate our API in your software application for <span>turn-key payment solution</span></h1>
+      >Integrate our API in your software application for a <span>turn-key payment solution</span></h1>
 
       <Details>
         {

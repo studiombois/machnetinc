@@ -13,7 +13,7 @@ const BuiltInCompliance = () => {
       </Title>
       <p>
         Integrated Customer Identification Program to meet regulatory and
-        compliance requirement.
+        compliance requirements.
       </p>
       <Content>
         <Column>
@@ -27,7 +27,7 @@ const BuiltInCompliance = () => {
           <Thumbnail>
             <img src={IdentityVerification} alt="screening" />
           </Thumbnail>
-          OFAC and Global Watch Lists screening meet the compliance requirements
+          OFAC and Global Watch List screening meet the compliance requirements
           through due diligence and strong user identity verification processes.
         </Column>
       </Content>

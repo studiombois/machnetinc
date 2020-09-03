@@ -531,11 +531,11 @@ export default () => (
               <li>
                 All notices, demands and other communications required or
                 permitted hereunder shall be made in writing and shall be deemed
-                to have been duly given pursuant to both of the following: (1)
-                delivery by hand, messenger, or courier or email, then postage
-                prepaid, certified, registered, or first-class mail (confirmed
-                via email) addressed to the addresses shown herein, below at the
-                following email address: help@machnetinc.com
+                to have been duly given pursuant to delivery by hand, messenger,
+                or courier or email, then postage prepaid, certified,
+                registered, or first-class mail (confirmed via email) addressed
+                to the addresses shown herein, below at the following email
+                address: help@machnetinc.com
               </li>
             </ol>
           </li>

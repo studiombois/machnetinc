@@ -43,7 +43,7 @@ export const services = [
   {
     id:5,
     title:"Risk & Fraud",
-    description: "Real-time risk assessment using personal, financial and behavioral signals from our platform and a global data network.",
+    description: "Real-time risk assessment using personal, financial, and behavioral signals from our platform and a global data network.",
     icon: Risk,
     path:'/risk-and-fraud',
   },
@@ -57,14 +57,14 @@ export const services = [
   {
     id:7,
     title: "Security",
-    description:"End-to-end encryption, PCI compliant card processing, transaction monitoring, built in risk assessment & fraud detection applications.",
+    description:"End-to-end encryption, PCI compliant card processing, transaction monitoring, built-in risk assessment & fraud detection applications.",
     icon: Security,
     path:'/security',
   },
   {
     id:8,
     title: "Global Settlement & Payout",
-    description:"Single API for real‑time cross‑border payments in more than 100 countries. Send payment instantly in local currency. Funds received directly into a mobile wallet, bank account or via cash pickup.",
+    description:"Single API for real‑time cross‑border payments in more than 100 countries. Send payment instantly in local currency. Funds received directly into a mobile wallet, bank account, or via cash pickup.",
     icon: GlobalSettlement,
     path:'/global-settlement-and-payout',
   }
@@ -81,7 +81,7 @@ export const keyPoints = {
     },
     {
       title:'Realtime user identification',
-      description: 'Real time KYC and KYB for quick user onboarding',
+      description: 'Real-time KYC and KYB for quick user onboarding',
       icon: UserVerified
     },
     {
@@ -118,7 +118,7 @@ export const usecases = [
   },
   {
     title:'Create Transaction',
-    description: 'Seamless way to send and receive funds',
+    description: 'A Seamless way to send and receive funds',
     icon: GlobalSettlement,
     api:'https://carbon.now.sh/embed?bg=rgba(171%2C184%2C195%2C0)&t=blackboard&wt=none&l=auto&ds=true&dsyoff=0px&dsblur=6px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=11px&lh=133%25&si=false&es=2x&wm=false&code=curl%2520-X%2520POST%2520https%253A%252F%252Fsandbox.api.machpay.com%252Fv2%252Fsenders%252F%257BsenderId%257D%252Ftransactions%2520%255C%250A%2520%2520-H%2520%27Accept%253A%2520application%252Fjson%27%2520%255C%250A%2520%2520-H%2520%27X-Client-Id%253A%2520clientid%27%2520%255C%250A%2520%2520-H%2520%27X-Client-Secret%253A%2520clientsecret%27%2520%255C%250A%2520%2520-H%2520%27X-Idempotency-Key%253A%2520idempotencykey%27%2520%255C%250A%2520%2520-d%2520%257B%2520%255C%250A%2520%2520%2520%2520%2522sender_amount%2522%253A%25200.01%252C%2520%255C%250A%2520%2520%2520%2520%2522exchange_rate%2522%253A%25201.00%252C%2520%255C%250A%2520%2520%2520%2520%2522recipient_amount%2522%253A%25200.01%252C%2520%255C%250A%2520%2520%2520%2520%2522fee_amount%2522%253A%25200%252C%2520%255C%250A%2520%2520%2520%2520%2522recipient_currency%2522%253A%2520%2522string%2522%252C%2520%255C%250A%2520%2520%2520%2520%2522sender_id%2522%253A%2520%2522string%2522%252C%2520%255C%250A%2520%2520%2520%2520%2522sender_funding_account_id%2522%253A%2520%2522string%2522%252C%2520%255C%250A%2520%2520%2520%2520%2522funding_source%2522%253A%2520%2522CARD%2522%252C%2520%255C%250A%2520%2520%2520%2520%2522recipient_id%2522%253A%2520%2522string%2522%252C%2520%255C%250A%2520%2520%2520%2520%2522recipient_bank_id%2522%253A%2520%2522string%2522%252C%2520%255C%250A%2520%2520%2520%2520%2522note%2522%253A%2520%2522string%2522%252C%2520%255C%250A%2520%2520%2520%2520%2522remittance_purpose%2522%253A%2520%2522string%2522%252C%2520%255C%250A%2520%2520%2520%2520%2522ip_address%2522%253A%2520%2522string%2522%252C%2520%255C%250A%2520%2520%2520%2520%2522payout_method%2522%253A%2520%2522BANK_EPOSIT%2522%2520%255C%250A%2520%2520%257D'
   },

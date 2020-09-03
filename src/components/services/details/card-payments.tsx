@@ -14,12 +14,12 @@ const CardPayment = () => {
       <Content>
         <Column style={{ alignSelf: 'center' }}>
           <h3>
-            Our Debit Card Processing Service is especially designed for Money
+            Our Debit Card Processing Service is specially designed for Money
             Transfer Services.
           </h3>
           <ul>
             <li>
-              We route payments to the least cost network getting merchants low
+              We route payments to the least-cost network getting merchants low
               interchange rates, specific to their business.
             </li>
             <li>

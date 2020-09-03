@@ -11,7 +11,7 @@ const RiskAndFraud = () => {
         <h1>Risk & fraud</h1>
       </Title>
       <p>
-        Utilizing user’s personal, financial and behavioral data - we are
+        Utilizing user’s personal, financial, and behavioral data - we are
         building a focused solution to provide automated risk scores & better
         insights to manually review transactions - to prevent fraud.
       </p>

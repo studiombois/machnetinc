@@ -23,9 +23,9 @@ const Identity = () => {
       <Content>
         <Column>
           <h1>1</h1>
-          With basic user information the system returns a result, including any
-          ID verification discrepancies. Depending on the results, the user can
-          be approved, failed, or escalated for enhanced verification.
+          With basic user information, the system returns a result, including
+          any ID verification discrepancies. Depending on the results, the user
+          can be approved, failed, or escalated for enhanced verification.
         </Column>
         <Column>
           <h1>2</h1>

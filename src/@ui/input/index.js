@@ -5,7 +5,7 @@ export const Input = styled.input`
   box-sizing: border-box;
   border: 1px solid #3673b9;
   padding: 0.7rem 0.9rem;
-  border-radius: 7px;
+  border-radius: 3px;
   margin-bottom: 0.5rem;
   transition: 0.3s;
 
