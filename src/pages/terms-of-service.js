@@ -22,10 +22,13 @@ export default () => (
           <li style={{ marginBottom: '0' }}>
             "you" or "your" means any person ("Users") using the Service;
           </li>
-          <li style={{ marginBottom: '0' }}>"we" or "us" or "our" means</li>
+          <li style={{ marginBottom: '0' }}>
+            "we" or "us" or "our" means Machnet Technologies Inc and its
+            partners;
+          </li>
           <li style={{ marginBottom: '0' }}>
             "partner" or "partners" means any third party service providers
-            engaged by MACHNET for facilitating the provision of the service/s,
+            engaged by MACHNET for facilitating the provision of the service/s;
           </li>
           <li style={{ marginBottom: '0' }}>
             Any term otherwise not defined in this Agreement shall have a
