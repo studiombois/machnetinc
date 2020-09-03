@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
   html {
-    font-family: 'Inter', sans-serif;
+    font-family: "Poppins",sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
@@ -220,6 +220,10 @@ export const Global = createGlobalStyle`
       text-rendering: optimizeLegibility;
       font-size: 2.25rem;
       line-height: 1.1;
+
+      @media (max-width: 500px) {
+        font-size: x-large;
+      }
     }
     h2 {
       margin-left: 0;

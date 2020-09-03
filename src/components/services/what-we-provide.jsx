@@ -9,17 +9,17 @@ import { Point, Details, Wrapper } from './styles';
 export const WhatWeProvide = () => (
   <Wrapper id="services">
     <Container>
-      <p
-        data-aos-delay="10"
-        data-aos="slide-up"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out-cubic">{keyPoints.title}</p>
       <h1
         data-aos-delay="10"
         data-aos="slide-up"
         data-aos-duration="1000"
+        data-aos-easing="ease-in-out-cubic">{keyPoints.title}</h1>
+      <p
+        data-aos-delay="10"
+        data-aos="slide-up"
+        data-aos-duration="1000"
         data-aos-easing="ease-in-out-cubic"
-      >Integrate our API in your software application for a <span>turn-key payment solution</span></h1>
+      >Integrate our API in your software application for a <span>turn-key payment solution</span></p>
 
       <Details>
         {

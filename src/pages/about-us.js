@@ -5,11 +5,11 @@ import { Layout, SEO, Container } from '@ui';
 
 import PageHeader from 'components/page/page-title';
 
-import User from 'assets/icons/user.svg';
+import User from 'assets/icons/users.svg';
 import Watch from 'assets/icons/watch.svg';
 import Bridge from 'assets/icons/bridge.svg';
 import Launch from 'assets/icons/launch.svg';
-import Compliant from 'assets/icons/compliant.svg';
+import Compliance from 'assets/icons/compliance.svg';
 import Transactions from 'assets/icons/transactions.svg';
 
 export default () => (
@@ -63,7 +63,7 @@ export default () => (
             <p>99.9% Uptime</p>
           </Item>
           <Item>
-            <img src={Compliant} alt="compliant" />
+            <img src={Compliance} alt="compliant" />
             <h1>Compliant</h1>
             <p>Regulatory Frameworks</p>
           </Item>

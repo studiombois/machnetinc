@@ -92,7 +92,7 @@ export const keyPoints = {
     {
       title:'Send & receive payments',
       description: 'Send and receive personal and business payments with single API integration',
-      icon: MoneyTransfer
+      icon: ACH
     },
   ]
 }

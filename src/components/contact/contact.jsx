@@ -1,24 +1,50 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import { Container } from '@ui';
 import ContactForm from './contact-form';
 
-import Email from 'assets/illustrations/email.svg'
+import Checkmark from 'assets/icons/checkmark.svg';
 
-import { Wrapper, Background, Details, Thumbnail } from './styles';
+import { Wrapper, Background, Form, Details, Grid, Item } from './styles';
 
 export const Contact = () => (
   <Background>
-    <Wrapper as={Container}>
-      <Thumbnail>
-        <img src={Email} alt="contact" />
-      </Thumbnail>
-      <Details id="contact">
-        <p>Get in touch</p>
-        <h1>Tell us a bit about yourself</h1>
-        <ContactForm />
-      </Details>
+    <Wrapper as={Container} id="contact">
+      <h1>Contact our sales team</h1>
+      <p>Fill out the form and we’ll be in touch as soon as possible.</p>
+      <Form>
+        <Grid>
+          <h1>Utilizing Machnet's service you can:</h1>
+          <Item>
+            <img src={Checkmark} alt="" />
+            <p>
+              Provide Whitelabel domestic & cross-border payment services to
+              your end-users.
+            </p>
+          </Item>
+          <Item>
+            <img src={Checkmark} alt="" />
+            <p>
+              Get access to a turn-key platform so you can focus on customer
+              acquisition.
+            </p>
+          </Item>
+          <Item>
+            <img src={Checkmark} alt="" />
+            <p>
+              Mitigate the risk of fraud & returns with our build in
+              Risk-management service.
+            </p>
+          </Item>
+          <Item>
+            <img src={Checkmark} alt="" />
+            <p>Allow your users to send payments to 100+ countries.</p>
+          </Item>
+        </Grid>
+        <Details>
+          <ContactForm />
+        </Details>
+      </Form>
     </Wrapper>
   </Background>
 );

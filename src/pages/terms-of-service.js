@@ -14,9 +14,9 @@ export default () => (
         <h1>Terms of Service</h1>
         <small>Last updated: February 1, 2020</small>
         <p>
-          This Agreement is a legal binding agreement between you and and shall
-          apply to your use of the service provided through Machnet Technologies
-          Inc.’s (MACHNET) Platform{' '}
+          This Agreement is a legal binding agreement between you and Machnet
+          Technologies Inc., and shall apply to your use of the service provided
+          through Machnet Technologies Inc.’s (MACHNET) Platform.
         </p>
         <ol style={{ marginBottom: '50px' }}>
           <li style={{ marginBottom: '0' }}>

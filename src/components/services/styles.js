@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
     text-align: left;
     font-size: 1.8rem;
     font-weight: 500;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 
     span {
       color: #3999d5;
@@ -29,13 +29,20 @@ export const Wrapper = styled.div`
     @media (max-width: 750px) {
       width: 100%;
     }
+
+    @media (max-width: 500px) {
+      font-size: x-large;
+    }
   }
 
   p {
     text-align: left;
-    color: #3196d4;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+
+    span {
+      color: #3999d5;
+    }
   }
 `;
 
@@ -64,7 +71,7 @@ export const Point = styled.div`
   h1 {
     color: #0a2540;
     font-size: 20px;
-    font-weight: bold;
+    // font-weight: bold;
     text-align: left;
     margin-bottom: 10px;
   }
@@ -85,7 +92,7 @@ export const FeaturesHeader = styled.div`
     text-align: left;
     font-size: 1.8rem;
     font-weight: 500;
-    margin-bottom: 2.2rem;
+    margin-bottom: 0.5rem;
 
     span {
       color: #3999d5;
@@ -98,9 +105,12 @@ export const FeaturesHeader = styled.div`
 
   p {
     text-align: left;
-    color: #3196d4;
     font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2.2rem;
+
+    span {
+      color: #3999d5;
+    }
   }
 `;
 
@@ -144,11 +154,14 @@ export const Contents = styled.div`
   }
 
   p {
-    color: #5e626b;
     font-size: 15px;
     text-align: left;
     margin-bottom: 10px;
     flex-grow: 1;
+
+    span {
+      color: #3999d5;
+    }
   }
 
   a {
