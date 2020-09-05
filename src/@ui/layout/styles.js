@@ -221,7 +221,7 @@ export const Global = createGlobalStyle`
       font-size: 2.25rem;
       line-height: 1.1;
 
-      @media (max-width: 500px) {
+      @media (max-width: 481px) {
         font-size: x-large;
       }
     }

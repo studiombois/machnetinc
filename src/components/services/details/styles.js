@@ -38,9 +38,10 @@ export const Column = styled.div`
   padding: 0 25px;
   font-size: 15px;
   line-height: 25px;
+  margin-bottom: 20px;
   color: #5e626b !important;
 
-  @media (max-width: 420px) {
+  @media (max-width: 481px) {
     padding: 0;
     min-width: 100%;
   }
@@ -52,8 +53,13 @@ export const Column = styled.div`
 	&:last-child {
     padding-right: unset;
 
-    @media (max-width: 372px) {
+    @media (max-width: 481px) {
       margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      padding-right: 25px;
+      padding-left: unset;
     }
   }
   
@@ -70,39 +76,61 @@ export const Column = styled.div`
     width: 54px !important;
     text-align: center !important;
   }
+`;
+
+export const Table = styled.div`
+  @media(max-width: 481px) {
+    overflow-x: auto;
+  }
 
   table {
     width: 80%;
-    height: 100%;
+    height: 445px;
     color: #727272;
     padding: 8px 20px;
     margin-bottom: 30px; 
     box-shadow: 0px 4px 10px #18181838;
     
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
     tr {
       td{
         padding: 5px 15px;
         font-size: 12px;
+
+        @medis(max-width: 481px) {
+          padding: 5px 12px;
+        }
       } 
     }
   }
 `;
 
 export const LinkYourBank = styled.div`
-  height: 100%;
+  height: 445px;
   max-width: 80%;
+  min-width: 330px;
   padding: 8px 20px;
   margin-bottom: 30px;
   position: relative; 
   box-shadow: 0px 4px 10px #18181838;
+  display: flex; 
+  flex-direction: column; 
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     max-width: 100%;;
+  }
+
+  @media (max-width: 481px) {
+    min-width: 100%;;
   }
 
   p {
     font-weight: bold;
     font-size: 15px;
+    margin-top: 10px;
   }
 `;
 
@@ -115,13 +143,11 @@ export const Loader = styled.div`
 `;
 
 export const Box = styled.div`
+  flex-grow: 1;
   padding: 20px;
+  margin: 20px 0;
   border-radius: 3px;
-  margin: 0 0 20px 0;
   background-image: linear-gradient(to bottom right, #b0b0b0, #606060);
-  position: absolute;
-  bottom: 0;
-  left: 20px;
 
   p {
     padding: 0;
@@ -142,7 +168,7 @@ export const Box = styled.div`
 export const BoxFooter = styled.div`
   color: #fff;
   display: flex;
-  margin-top: 8rem;
+  margin-top: 40px;
 
   img {
     width: 30px;
@@ -152,14 +178,6 @@ export const BoxFooter = styled.div`
     border-radius: 50%;
     margin: 0 10px;
   }
-`;
-
-export const BankNetwork = styled.div`
-  max-width: 400px;
-  padding: 60px 24px;
-  border-radius: 3px;
-  margin: 0px 0 20px 0;
-  box-shadow: 0px 4px 10px #18181847;
 `;
 
 export const CardNetwork = styled.div`
@@ -189,7 +207,7 @@ export const RiskAndFraudThumbnail = styled.img`
   margin: auto;
   width: 700px;
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     padding: 0; 
   }
 `;

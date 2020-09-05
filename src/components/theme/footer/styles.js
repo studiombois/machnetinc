@@ -25,7 +25,7 @@ export const TopFooter = styled.div `
   margin-bottom: 30px !important;
   justify-content: space-between;
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     display: block;
   }
 `;
@@ -38,7 +38,7 @@ export const Brand = styled.div `
     line-height: 20px;
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     max-width: 100%;
     text-align: center;
   }
@@ -47,7 +47,7 @@ export const Brand = styled.div `
 export const RightMenu = styled.div `
   display: flex;
 
-  @media (max-width: 750px){
+  @media (max-width: 768px){
     display: block;
     text-align: center;
 	}
@@ -58,7 +58,7 @@ export const Links = styled.div `
   text-align: left;
   font-size: ${({varient}) => varient};
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +76,7 @@ export const Links = styled.div `
       color: #8aeff1;
     }
 
-    @media (max-width: 750px) {
+    @media (max-width: 768px) {
       display: block;
       padding: 5px;
     }
@@ -89,7 +89,7 @@ export const BottomFooter = styled.div `
   text-align: left;
   justify-content: space-between;
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     display: block;
     text-align: center;
   }

@@ -11,9 +11,14 @@ export const Wrapper = styled.div`
   background-attachment: fixed;
   background-size: cover;
   
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     margin: 0;
     padding: 3rem 0 0 0;
+  }
+
+  @media (max-width: 481px) {
+    margin: 0;
+    padding: 0;
   }
 
   h1 {
@@ -26,11 +31,11 @@ export const Wrapper = styled.div`
       color: #3999d5;
     }
 
-    @media (max-width: 750px) {
+    @media (max-width: 768px) {
       width: 100%;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 481px) {
       font-size: x-large;
     }
   }
@@ -57,7 +62,7 @@ export const Point = styled.div`
   width: 50%;
   padding: 25px 30px 0 0;
   
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     width: 100%;
   }
 
@@ -88,6 +93,10 @@ export const Point = styled.div`
 export const FeaturesHeader = styled.div`
   padding: 0 10px;
 
+  @media (max-width: 481px) {
+    padding: 0;
+  }
+
   h1 {
     text-align: left;
     font-size: 1.8rem;
@@ -98,7 +107,7 @@ export const FeaturesHeader = styled.div`
       color: #3999d5;
     }
 
-    @media (max-width: 750px) {
+    @media (max-width: 768px) {
       width: 100%;
     }
   }
@@ -117,23 +126,34 @@ export const FeaturesHeader = styled.div`
 export const Features = styled.div`
   display: flex;
   flex-wrap: wrap;
+
+  @media (max-width: 481px) {
+    display: block;
+  }
 `;
 
 export const Feature = styled.div`
   width: 100%;;
   padding: 20px 15px;
   background: #fdfdfd;
-  margin: 10px 10px 25px 10px;
+  margin: 10px 0 25px 0;
   box-shadow: 0 15px 25px #00000017;
     
-  @media (min-width: 48rem) {
+  @media (min-width: 481px) {
+    width: 45%;
+    margin: 10px 10px 25px 10px;
+  }
+
+  @media (min-width: 768px) {
     width: 47%;
+    margin: 10px 10px 25px 10px;
   }
     
-  @media (min-width: 62rem) {
+  @media (min-width: 922px) {
     width: 23%;
+    margin: 10px 10px 25px 10px;
   }
-    
+
   &:before {
     content: "";
     float: left;

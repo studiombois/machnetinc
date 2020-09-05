@@ -21,7 +21,7 @@ export const InputField = styled.div`
   flex:1;
   justify-content: center;
   
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     flex: auto;
     flex-grow: 1;
   }

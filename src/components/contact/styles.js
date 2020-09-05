@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
     font-weight: 500;
     margin-bottom: 0.5rem;
 
-    @media (max-width: 500px) {
+    @media (max-width: 481px) {
       text-align: left;  
       font-size: x-large;
     }
@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
     font-size: 1.2rem;
     margin-bottom: 2rem;
 
-    @media (max-width: 500px) {
+    @media (max-width: 481px) {
       text-align: left;  
     }
   }
@@ -47,11 +47,11 @@ export const Details = styled.div`
   padding: 3rem 0; 
   min-width: 550px; 
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     min-width: auto; 
   }
   
-  @media (max-width: 420px) {
+  @media (max-width: 481px) {
     padding: 0; 
   }
 
@@ -70,25 +70,51 @@ export const Details = styled.div`
   }
 `;
 
-export const Grid = styled.div`
+export const TabGrid = styled.div`
   flex: 1;
+  align-self:center;
+  grid-gap: 0;
+  display: none;
+  margin-bottom: 3rem;
   padding: 0 8rem 0 6rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  @media (max-width: 768px) {
+    display: grid;
+  }
+
+  @media (max-width: 481px) {
+    padding: 0;
+  }
+`;
+
+export const DesktopGrid = styled.div`
+  flex: 1;
   align-self:center;
   grid-gap: 0;
   display: grid;
   margin-bottom: 3rem;
+  padding: 0 8rem 0 6rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
-  @media (max-width: 500px) {
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const GridTypo = styled.div`
+  @media (max-width: 481px) {
     padding: 0;  
   }
 
   h1 {
     font-weight: 100;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
 
-    @media (max-width: 500px) {
+    @media (max-width: 481px) {
+      margin-top: 50px;
       font-size: medium;
     }
   }
@@ -98,7 +124,7 @@ export const Item = styled.div`
   display: flex;
   margin: 10px 0;
 
-  @media (max-width: 500px) {
+  @media (max-width: 481px) {
     margin: 5px;
   }
 
@@ -115,7 +141,7 @@ export const Item = styled.div`
     text-align: left;
     color: #647281;
 
-    @media (max-width: 500px) {
+    @media (max-width: 481px) {
       font-size: small;
     }
   }
@@ -137,7 +163,7 @@ export const Thumbnail = styled.div`
     font-size: 22px;
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     display: none; 
   }
 

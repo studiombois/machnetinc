@@ -20,4 +20,8 @@ export default () => (
 
 const ServiceWrapper = styled.div`
   margin-top: 7rem;
+  
+  @media(max-width: 481px) {
+    margin-top: 5rem;
+  }
 `;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   margin-bottom: 7rem;
 
-  @media (max-width: 420px) {
+  @media (max-width: 481px) {
     margin-bottom: 3rem;
   }
 `;
@@ -25,7 +25,7 @@ export const WaveBackground = styled.img`
     margin-top: -58px;
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     margin-top: -20px;
   }
 `;

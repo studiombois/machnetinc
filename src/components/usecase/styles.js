@@ -23,7 +23,7 @@ export const Thumbnail = styled.div`
   flex-direction: column;
   justify-content: center;
   
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     flex: 1 100%;
     overflow: scroll;
   }
@@ -35,7 +35,7 @@ export const Description = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     padding-left: 0;
   }
 
@@ -48,7 +48,7 @@ export const Description = styled.div`
 export const Details = styled.div`
   padding: 3rem 4rem;
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     padding: 3rem 0rem; 
   }
 

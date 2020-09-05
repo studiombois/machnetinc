@@ -17,7 +17,7 @@ export const WaveBackground = styled.img`
   margin-top: -86px;
   position: absolute;
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     margin-top: -20px;
   }
 `;
@@ -74,7 +74,7 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
   flex: 1;
-  max-width: 500px;
+  max-width: 481px;
 
   @media (max-width: 960px) {
     width: 100%;

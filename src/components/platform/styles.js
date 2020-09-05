@@ -19,7 +19,7 @@ export const WaveBackground = styled.img `
   margin-top: -86px;
   position: absolute;
 
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     margin-top: -20px;
   }
 `;
@@ -96,7 +96,7 @@ export const Tab = styled.img `
     margin: 160px 0 0 120px;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 481px) {
     margin: 160px 0 0 0px;
   }
 `;

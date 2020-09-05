@@ -96,7 +96,7 @@ const Item = styled.div`
     font-size: 1.2rem;
     font-weight: bold;
 
-    @media (max-width: 420px) {
+    @media (max-width: 481px) {
       width: 100%;
       text-align: center;
     }
@@ -105,7 +105,7 @@ const Item = styled.div`
   p {
     font-size: 15px;
 
-    @media (max-width: 420px) {
+    @media (max-width: 481px) {
       text-align: center;
     }
   }
@@ -115,7 +115,7 @@ const Item = styled.div`
     display: block;
     margin-bottom: 10px;
 
-    @media (max-width: 420px) {
+    @media (max-width: 481px) {
       margin: 10px auto 0 auto;
     }
   }
