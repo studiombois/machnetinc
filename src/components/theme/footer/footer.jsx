@@ -12,7 +12,7 @@ import {
   BottomFooter,
 } from './styles';
 
-import social from 'data/social.json';
+import social from 'data/social.js';
 import Logo from 'assets/icons/logo-white.svg';
 
 export const Footer = () => (
