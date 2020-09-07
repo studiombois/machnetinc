@@ -6,12 +6,12 @@ export default [
     id: 2,
     name: 'Linkedin',
     link: 'https://www.linkedin.com/company/machnet-inc/',
-    icon: Gmail,
+    icon: Linkedin,
   },
   {
     id: 3,
     name: 'Gmail',
     link: 'mailto:help@machnetinc.com',
-    icon: Linkedin,
+    icon: Gmail,
   },
 ];
