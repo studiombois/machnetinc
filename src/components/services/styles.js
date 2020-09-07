@@ -197,6 +197,7 @@ export const Contents = styled.div`
 
     img {
       width: 18px;
+      height: 25px;
       margin-left: 5px;
     }
   }
