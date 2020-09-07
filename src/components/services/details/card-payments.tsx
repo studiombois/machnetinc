@@ -13,7 +13,7 @@ const CardPayment = () => {
       </Title>
       <Content>
         <Column style={{ alignSelf: 'center' }}>
-          <h3>
+          <h3 style={{ fontWeight: '400' }}>
             Our Debit Card Processing Service is specially designed for Money
             Transfer Services.
           </h3>
