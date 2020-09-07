@@ -17,9 +17,13 @@ export const WaveBackground = styled.img`
   margin-top: -86px;
   position: absolute;
 
+  @media (max-width: 1024px) {
+    margin-top: -60px;
+  }
+
   @media (max-width: 768px) {
     margin-top: -20px;
-  }
+  }  
 `;
 
 export const IntroWrapper = styled.div`

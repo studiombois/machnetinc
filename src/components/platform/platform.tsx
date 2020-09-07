@@ -30,9 +30,8 @@ const Platform = () => {
           <Intro as={Container}>
             <h1>Hyper integrated API platform</h1>
             <p>
-              Regulatory compliant API for user onboarding, sending/receiving
-              payments between US domestic and international users with our
-              programmable payments platform.
+              Regulatory compliant API to onboard users and send & receive
+              payments between US domestic and international users.
             </p>
             <LearnMore as={AnchorLink} href="#services">
               Learn More

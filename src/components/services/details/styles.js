@@ -44,6 +44,7 @@ export const Column = styled.div`
   @media (max-width: 481px) {
     padding: 0;
     min-width: 100%;
+    margin-top: 30px;
   }
   
   &:first-child {
@@ -53,13 +54,13 @@ export const Column = styled.div`
 	&:last-child {
     padding-right: unset;
 
-    @media (max-width: 481px) {
-      margin-top: 30px;
-    }
-
     @media (max-width: 768px) {
       padding-right: 25px;
       padding-left: unset;
+    }
+
+    @media (max-width: 481px) {
+      padding-right: 0;
     }
   }
   
@@ -185,6 +186,10 @@ export const CardNetwork = styled.div`
     width: 80%;
     display: block;
     margin-left: 0;
+
+    @media (max-width: 481px) {
+      margin: auto;
+    }
   }
 `;
 

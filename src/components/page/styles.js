@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   margin-bottom: 7rem;
 
+  @media (min-width: 1800px) {
+    margin-bottom: 9rem;
+  }
+
   @media (max-width: 481px) {
     margin-bottom: 3rem;
   }

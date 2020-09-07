@@ -25,8 +25,8 @@ export const WaveBackground = styled.img `
 `;
 
 export const IntroWrapper = styled.div `
+  padding: 0;
   display: flex;
-  padding: 3rem 0 0 0;
   align-items: center;
   justify-content: space-between;
 
@@ -55,6 +55,7 @@ export const Intro = styled.div `
 
     @media (max-width: 680px) {
       font-size: 2rem;
+      margin: 0 0 1.45rem 0;
     }
   }
 

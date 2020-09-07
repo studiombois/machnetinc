@@ -12,13 +12,14 @@ export const Wrapper = styled.div`
   background-size: cover;
   
   @media (max-width: 768px) {
-    margin: 0;
-    padding: 3rem 0 0 0;
+    margin-top: 1rem;
+    padding: 4rem 0 0 0;
   }
 
   @media (max-width: 481px) {
-    margin: 0;
-    padding: 0;
+    margin-top: 1rem;
+    padding: 4rem 0 0 0;
+    margin-bottom: 2rem;
   }
 
   h1 {
@@ -133,7 +134,7 @@ export const Features = styled.div`
 `;
 
 export const Feature = styled.div`
-  width: 100%;;
+  width: 100%;
   padding: 20px 15px;
   background: #fdfdfd;
   margin: 10px 0 25px 0;
@@ -148,8 +149,13 @@ export const Feature = styled.div`
     width: 47%;
     margin: 10px 10px 25px 10px;
   }
-    
-  @media (min-width: 922px) {
+  
+  @media (min-width: 1024px) {
+    width: 31%;
+    margin: 10px 10px 25px 10px;
+  }
+
+  @media (min-width: 1200px) {
     width: 23%;
     margin: 10px 10px 25px 10px;
   }

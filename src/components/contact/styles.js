@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   padding: 6rem 0 3rem 0;
 
+  @media (max-width: 481px) {
+    padding: 3rem 0 0 0;
+  }
+
    h1 {
     text-align: center;
     font-size: 2rem;

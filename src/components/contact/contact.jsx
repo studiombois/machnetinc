@@ -20,28 +20,28 @@ const QuickFacts = () => (
   <GridTypo>
     <h1>Utilizing Machnet's service you can:</h1>
     <Item>
-      <img src={Checkmark} alt="" />
+      <img src={Checkmark} alt="checkmark" />
       <p>
         Provide Whitelabel domestic & cross-border payment services to your
         end-users.
       </p>
     </Item>
     <Item>
-      <img src={Checkmark} alt="" />
+      <img src={Checkmark} alt="checkmark" />
       <p>
         Get access to a turn-key platform so you can focus on customer
         acquisition.
       </p>
     </Item>
     <Item>
-      <img src={Checkmark} alt="" />
+      <img src={Checkmark} alt="checkmark" />
       <p>
         Mitigate the risk of fraud & returns with our build in Risk-management
         service.
       </p>
     </Item>
     <Item>
-      <img src={Checkmark} alt="" />
+      <img src={Checkmark} alt="checkmark" />
       <p>Allow your users to send payments to 100+ countries.</p>
     </Item>
   </GridTypo>
