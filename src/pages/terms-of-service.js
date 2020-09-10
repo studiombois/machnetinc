@@ -27,7 +27,7 @@ export default () => (
             partners;
           </li>
           <li style={{ marginBottom: '0' }}>
-            "partner" or "partners" means any third party service providers
+            "partner" or "partners" means any third-party service providers
             engaged by MACHNET for facilitating the provision of the service/s;
           </li>
           <li style={{ marginBottom: '0' }}>
@@ -48,8 +48,8 @@ export default () => (
               <li>
                 <b>"Customer"</b> means an individual or entity who is eligible
                 to use your money transfer services, and has submitted
-                transaction information required by PARTNER to effectuate the
-                money transfer;
+                transaction information required by us and PARTNERS to
+                effectuate the money transfer;
               </li>
               <li>
                 <b>"Beneficiary"</b> or <b>"Beneficiaries"</b> means an
@@ -63,7 +63,7 @@ export default () => (
                 Customers via the Platform;
               </li>
               <li>
-                <b>"Customer Funds</b>" means funds paid by customers in order
+                <b>"Customer Funds"</b> means funds paid by customers in order
                 to effectuate a money transfer or payments from the Platform,
                 including the amount to be transferred to a Beneficiary, and any
                 transaction fees or any other service fees;
@@ -71,16 +71,17 @@ export default () => (
               <li>
                 <b>"Platform"</b> means the online technology platform designed
                 and developed by MACHNET, including API stacks for front-end
-                user interfaces, back-end transaction management and reporting
+                user interfaces, back-end transaction management, and reporting
                 systems. The Platform shall also enable you to operate online
-                money transfer service including <b>"Marketing Program"</b>.
+                money transfer services including the <b>"Marketing Program"</b>
+                .
               </li>
             </ol>
-            <p>
-              Any term otherwise not defined in this Agreement shall have a
-              meaning generally applied to such terms in the particular context
-              wherein they are used.
-            </p>
+          </li>
+          <li>
+            Any term otherwise not defined in this Agreement shall have a
+            meaning generally applied to such terms in the particular context
+            wherein they are used.
           </li>
           <li>
             <b>PLATFORM LICENSING</b>
@@ -97,7 +98,7 @@ export default () => (
                 any actions that may alter, merge, adapt or translate the
                 Platform, or de-compile, reverse engineer, disassemble, or
                 otherwise reduce the Platform to a human-perceivable form. You
-                may not transfer, distribute, re-license, sell, rent or lease
+                may not transfer, distribute, re-license, sell, rent, or lease
                 the Platform.
               </li>
               <li>
@@ -109,7 +110,7 @@ export default () => (
                 Application.
               </li>
               <li>
-                You shall retain all title, copyright and other proprietary
+                You shall retain all title, copyright, and other proprietary
                 rights in the Platform. You do not acquire any rights, express
                 or implied, in the Platform, other than those specified in this
                 Agreement.
@@ -136,13 +137,13 @@ export default () => (
                 including but not limited to the incorporation of such suggested
                 changes or modifications into MACHNET's Platform and the right
                 to assign, license or to otherwise transfer to third parties the
-                software so changed or modified without obligation to PARTNER.
+                software so changed or modified without obligation to you.
               </li>
               <li>
-                The Platform is being delivered to PARTNER "AS IS" and MACHNET
-                makes no warranty as to its use or performance. MACHNET DOES NOT
-                AND CANNOT WARRANT THE PERFORMANCE OR RESULTS PARTNER MAY OBTAIN
-                BY USING THE PLATFORM. MACHNET MAKES NO WARRANTIES CONDITIONS,
+                The Platform is being delivered to you "AS IS" and MACHNET makes
+                no warranty as to its use or performance. MACHNET DOES NOT AND
+                CANNOT WARRANT THE PERFORMANCE OR RESULTS YOU MAY OBTAIN BY
+                USING THE PLATFORM. MACHNET MAKES NO WARRANTIES CONDITIONS,
                 REPRESENTATIONS, OR TERMS (EXPRESS OR IMPLIED WHETHER BY
                 STATUTE, COMMON LAW, CUSTOM, USAGE OR OTHERWISE) AS TO ANY
                 MATTER INCLUDING WITHOUT LIMITATION NON INFRINGEMENT OF THIRD
@@ -156,55 +157,55 @@ export default () => (
             <ol type="0">
               <li>
                 MACHNET, at its sole discretion, may enter into agreements with
-                third party service providers for one or more of the following
-                services, which in MACHNET’s best efforts, may be integrated in
-                the Platform.
+                third-party service providers for one or more of the following
+                services, which in MACHNET’s best efforts, may be integrated
+                with the Platform.
               </li>
-              <ol type="a">
+              <ol type="1">
                 <li>
                   <b>Payment Service/s</b>
-                  <ol type="i">
+                  <ol type="a">
                     <li>
                       These may consist of applications, tools, and other
-                      services, as required for PARTNER to receive and send
-                      payments via Automated Clearing House (ACH), Debit Card,
-                      FEDwire services, and any other payment instruments as may
-                      be notified by MACHNET.
+                      services, as required to receive and send payments via
+                      Automated Clearing House (ACH), Debit Card, FEDwire
+                      services, and any other payment instruments as may be
+                      notified by MACHNET.
                     </li>
                     <li>
-                      These services generally allow you to create its account
-                      with MACHNET’s third party service provider to send and
-                      receive customer funds. PARTNER shall be solely
-                      responsible for the funds which are received and sent from
-                      this account.
+                      These services generally allow you to create your account
+                      with MACHNET’s third-party service provider to send and
+                      receive customer funds. You shall be solely responsible
+                      for the funds which are received and sent from this
+                      account.
                     </li>
                     <li>
                       These services generally allow you to create Customer
-                      Accounts with MACHNET’s third party service providers on
-                      behalf of the customer. To create a Customer Account,
-                      PARTNER must collect and provide with the information
-                      pertaining to the identity of the Customer and the
-                      information of the Customer’s bank account. Prior to
-                      creating a User Account, you must obtain authorization to
-                      debit and credit from the prospective Customer’s Customer
-                      Account and bank account on behalf of you, MACHNET and its
-                      third party service provider. Your agreement with the
-                      Customer should clearly provide this authorization and
-                      explain the services the Platform will provide.
+                      Accounts with MACHNET’s third-party service providers on
+                      behalf of the customer. To create a Customer Account, you
+                      must collect and provide the information pertaining to the
+                      identity of the Customer and the information of the
+                      Customer’s bank account. Prior to creating a User Account,
+                      you must obtain authorization to debit and credit from the
+                      prospective Customer’s Customer Account and bank account
+                      on behalf of you, MACHNET, and its third-party service
+                      provider. Your agreement with the Customer should clearly
+                      provide this authorization and explain the services the
+                      Platform will provide.
                     </li>
                     <li>
                       You shall be solely liable on account of any returns,
-                      reversals and chargebacks occurring during the use of the
+                      reversals, and chargebacks occurring during the use of the
                       payment service/s. The nature and extent of the liability
-                      shall be as per the Terms and Conditions of the third
-                      party service provider providing such payment service/s.
-                      Such liability of you under this clause shall survive the
-                      termination of this Agreement.
+                      shall be as per the Terms and Conditions of the
+                      third-party service provider providing such payment
+                      service/s. Such liability of you under this clause shall
+                      survive the termination of this Agreement.
                     </li>
                   </ol>
                   <li>
                     <b>KYC/AML</b>
-                    <ol type="i">
+                    <ol type="1">
                       <li>
                         MACHNET may provide you with know your customer ("KYC")
                         and anti-money laundering ("AML") services for the
@@ -234,11 +235,11 @@ export default () => (
                         ("DPPA") and similar and/or associated state laws and
                         regulations governing the use and disclosure of drivers’
                         license information; or (d) any other federal, state or
-                        local statute, regulation, rule or other governmental
-                        mandate (collectively, the "KYC Applicable Laws").
+                        local statute, regulation, rule, or other governmental
+                        mandates (collectively, the "KYC Applicable Laws").
                       </li>
                       <li>
-                        You understand that MACHNET and any of its third party
+                        You understand that MACHNET and any of its third-party
                         service providers are not a consumer reporting agency
                         ("Consumer Reporting Agency") as defined by the FCRA.
                         Further, you agree that you will not use the KYC
@@ -248,14 +249,15 @@ export default () => (
                         violates this Agreement.
                       </li>
                       <li>
-                        You assures and warrants (1) its use of the KYC
+                        You assure and warrant (1) its use of the KYC
                         Application does not violate any agreement or obligation
-                        between customer and any third party or Applicable Law
-                        and (2) neither any information delivered by customer to
-                        MACHNET and its third party service providers nor your
-                        Use of this KYC Application will infringe on any
-                        proprietary rights held by any third party or constitute
-                        a violation of any KYC Applicable Laws.
+                        between the customer and any third party or Applicable
+                        Law and (2) neither any information delivered by the
+                        customer to MACHNET and its third-party service
+                        providers nor your Use of this KYC Application will
+                        infringe on any proprietary rights held by any third
+                        party or constitute a violation of any KYC Applicable
+                        Laws.
                       </li>
                     </ol>
                   </li>
@@ -263,15 +265,15 @@ export default () => (
                 <li>
                   No license or right to use, reproduce, translate, rearrange,
                   modify, enhance, display, resell, lease, sublicense or
-                  otherwise distribute, transfer or dispose of the third party
+                  otherwise distribute, transfer or dispose of the third-party
                   services, in whole or in part, is granted except as expressly
                   provided by this Section.
                 </li>
                 <li>
                   Wherever applicable, your and Customers shall agree to the
-                  terms and conditions of MACHNET’s third party service
+                  terms and conditions of MACHNET’s third-party service
                   providers. Also, you may be required to enter into a direct
-                  agreement with such third party service providers.
+                  agreement with such third-party service providers.
                 </li>
                 <li>
                   You shall be responsible for the accuracy and validity of all
@@ -283,12 +285,12 @@ export default () => (
                 </li>
                 <li>
                   MACHNET shall exercise its best efforts to provide all
-                  necessary support for any issues arising with PARTNER’s use of
-                  the Third Party Services. MACHNET does not assume any
-                  liability for any errors or issues arising out of the use of
-                  such Third Party Services. Further, MACHNET shall exercise its
-                  best efforts to ensure the quality and continuity of such
-                  Third Party Services.
+                  necessary support for any issues arising with your use of the
+                  Third-Party Services. MACHNET does not assume any liability
+                  for any errors or issues arising out of the use of such Third
+                  Party Services. Further, MACHNET shall exercise its best
+                  efforts to ensure the quality and continuity of such Third
+                  Party Services.
                 </li>
               </ol>
             </ol>
@@ -297,8 +299,8 @@ export default () => (
             <b>INTELLECTUAL PROPERTY</b>
             <ol type="1">
               <li>
-                MACHNET shall retain all rights, title and interest to its own
-                intellectual property rights, including but not limited to
+                MACHNET shall retain all rights, title, and interest to its own
+                intellectual property rights, including but not limited to the
                 copyright, trademarks, patents, registered and industrial
                 designs in the Platform (collectively the "Intellectual Property
                 Rights"). You do not acquire any rights, express or implied, in
@@ -314,7 +316,7 @@ export default () => (
               </li>
               <li>
                 Both you and MACHNET shall retain their Intellectual Property
-                Rights. Both you and MACHNET irrevocably guarantees the other
+                Rights. Both you and MACHNET irrevocably guarantee the other
                 Party that it’s Platform and the Intellectual Property Rights
                 related to the Services under this Agreement are original works
                 and will not infringe the Intellectual Property Rights of any
@@ -326,9 +328,9 @@ export default () => (
                 Intellectual Property Rights of a third party.
               </li>
               <li>
-                Both you and MACHNET hereby agrees to fully indemnify and keep
+                Both you and MACHNET hereby agree to fully indemnify and keep
                 fully indemnified the other Party against any loss, cost,
-                expenses, demands, liabilities or damage, for any infringement
+                expenses, demands, liabilities, or damage, for any infringement
                 of the other Party’s Intellectual Property Rights arising out of
                 or incident to the performance of the Services or its breach of
                 any provision(s) of this Agreement in accordance with the
@@ -336,7 +338,7 @@ export default () => (
               </li>
               <li>
                 Both you and MACHNET shall notify the other Party as soon as
-                practicable of any infringement, suspected infringement or
+                practicable of any infringement, suspected infringement, or
                 alleged infringement of the Intellectual Property Rights of any
                 third party or of the other Party, including any claims
                 therefrom affecting this Agreement.
@@ -371,9 +373,9 @@ export default () => (
                 order to afford the receiving Party an opportunity to seek a
                 protective order (it being agreed that if the disclosing Party
                 is unable to obtain or does not seek a protective order and the
-                receiving Party is legally compelled to disclose such
+                Receiving Party is legally compelled to disclose such
                 information, disclosure of such information may be made without
-                liability).{' '}
+                liability).
               </li>
               <li>
                 Each receiving Party must maintain the confidentiality of the
@@ -394,13 +396,12 @@ export default () => (
             <b>INTELLECTUAL PROPERTY</b>
             <ol type="1">
               <li>
-                MACHNET shall retain all rights, title and interest to its own
-                intellectual property rights, including but not limited to
+                MACHNET shall retain all rights, title, and interest to its own
+                intellectual property rights, including but not limited to the
                 copyright, trademarks, patents, registered and industrial
                 designs in the Platform (collectively the "Intellectual Property
-                Rights"). PARTNER does not acquire any rights, express or
-                implied, in the Platform, other than those specified in this
-                Agreement.
+                Rights"). You do not acquire any rights, express or implied, in
+                the Platform, other than those specified in this Agreement.
               </li>
               <li>
                 You shall not modify the Platform or create derivative works
@@ -426,7 +427,7 @@ export default () => (
               <li>
                 Each Party hereby agrees to fully indemnify and keep fully
                 indemnified the other Party against any loss, cost, expenses,
-                demands, liabilities or damage, for any infringement of the
+                demands, liabilities, or damage, for any infringement of the
                 other Party’s Intellectual Property Rights arising out of or
                 incident to the performance of the Services or its breach of any
                 provision(s) of this Agreement in accordance with the provisions
@@ -434,7 +435,7 @@ export default () => (
               </li>
               <li>
                 Each Party shall notify the other Party as soon as practicable
-                of any infringement, suspected infringement or alleged
+                of any infringement, suspected infringement, or alleged
                 infringement of the Intellectual Property Rights of any third
                 party or of the other Party, including any claims therefrom
                 affecting this Agreement.
@@ -463,8 +464,8 @@ export default () => (
                 class action basis or in a purported representative capacity on
                 behalf of the general public or other persons or entities
                 similarly situated. The arbitrator’s authority to resolve
-                Disputes and to make awards is limited to Disputes between the
-                parties to this Agreement alone, and is subject to the
+                disputes and to make awards is limited to Disputes between the
+                parties to this Agreement alone and is subject to the
                 limitations of liability set forth in this Agreement.
                 Furthermore, Disputes brought by either party to this Agreement
                 against the other may not be joined or consolidated in
@@ -478,8 +479,8 @@ export default () => (
                 Section 10 shall be stricken from this Agreement.
               </li>
               <li>
-                All offers, promises, conduct and statements, whether written or
-                oral, made in the course of negotiation, mediation or
+                All offers, promises, conduct, and statements, whether written
+                or oral, made in the course of negotiation, mediation or
                 arbitration hereunder, or proceedings by either party to confirm
                 arbitration awards hereunder are confidential, privileged, and
                 inadmissible for any other purpose, including, without
@@ -492,8 +493,8 @@ export default () => (
                 merits to preserve the status quo. The provisions of this
                 Alternative Dispute Resolution paragraph may be enforced in a
                 court of competent jurisdiction and the party seeking
-                enforcement shall be entitled to an award of all costs, fees and
-                expenses (including reasonable attorney fees) incurred in
+                enforcement shall be entitled to an award of all costs, fees,
+                and expenses (including reasonable attorney fees) incurred in
                 obtaining the enforcement of this provision, to be paid by the
                 party against whom enforcement is ordered.
               </li>
@@ -529,7 +530,7 @@ export default () => (
                 of California, subject to the provisions of Section 7.
               </li>
               <li>
-                All notices, demands and other communications required or
+                All notices, demands, and other communications required or
                 permitted hereunder shall be made in writing and shall be deemed
                 to have been duly given pursuant to delivery by hand, messenger,
                 or courier or email, then postage prepaid, certified,
